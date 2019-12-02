@@ -45,3 +45,15 @@ nav {
 .hejhopp {
 padding: 10em;
 }
+
+.changeColor {
+  color: rgb(228, 94, 63);
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0.8em;
+  }
+
+  .description {
+    font-family: 'Alda ot cev'; 
+    margin-bottom: 2.5em;
+  }

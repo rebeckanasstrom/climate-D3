@@ -11,8 +11,8 @@ export default class Home extends Component {
       <img src="images/beach-pic.png" alt=""/>
     </div>
     <div class="content">
-      <div class="header">Fossil Fuel</div>
-      <div class="description">
+      <div class="header" className="changeColor">FOSSIL FUEL</div>
+      <div className="description">
         Read about fossil fuel emissions.
       </div>
     </div>
@@ -23,8 +23,8 @@ export default class Home extends Component {
       <img src="images/beach-pic.png" alt=""/>
     </div>
     <div class="content">
-      <div class="header">Temperature</div>
-      <div class="description">
+      <div class="header" className="changeColor">TEMPERATURE</div>
+      <div className="description">
         Read about global temperatures.
       </div>
     </div>
@@ -35,8 +35,8 @@ export default class Home extends Component {
       <img src="images/beach-pic.png" alt=""/>
     </div>
     <div class="content">
-      <div class="header">Glacier</div>
-      <div class="description">
+      <div class="header" className="changeColor">GLACIER</div>
+      <div className="description">
         Read about glacier sizes.
       </div>
     </div>
@@ -47,8 +47,8 @@ export default class Home extends Component {
       <img src="images/beach-pic.png" alt=""/>
     </div>
     <div class="content">
-      <div class="header">Sea Levels</div>
-      <div class="description">
+      <div class="header" className="changeColor">SEA LEVELS</div>
+      <div className="description">
         Read about rising sea levels.
       </div>
     </div>
