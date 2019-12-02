@@ -1,22 +1,47 @@
 .App {
   text-align: center;
+  font-family: 'Century Gothic', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+p {
+  font-family: 'Alda ot cev', 'Times New Roman', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 5vh;
+  background: rgba(250, 211, 202, 0.43);
+  color: rgb(228, 94, 63);
 }
 
-.App-link {
-  color: #09d3ac;
+.nav-links {
+  width: 30%;
+  font-size: 1em;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: right;
+  list-style: none;
+  margin-left: 50%;
+  padding-top: 1em;
+}
+
+.link-style {
+  color: rgb(228, 94, 63);
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-style {
+  width: 7em;
+}
+
+.link-style:hover {
+ color:#54b2cc;
+}
+
+.hejhopp {
+padding: 10em;
 }

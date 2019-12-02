@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import FossilFuel from './components/FossilFuel';
+import Temperature from './components/Temperature';
+import Glacier from './components/Glacier';
+import SeaLevel from './components/SeaLevel';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/fossilfuel" component={FossilFuel} />
+          <Route path="/temperature" component={Temperature} />
+          <Route path="/glacier" component={Glacier} />
+          <Route path="/sealevel" component={SeaLevel} />
+        </Switch>
     </div>
+    </Router>
   );
 }
+
 
 export default App;
