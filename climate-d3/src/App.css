@@ -57,3 +57,23 @@ padding: 10em;
   font-family: 'Alda ot cev', serif; 
   margin-bottom: 2.5em;
   }
+
+  .HomeCardsBox, .HomeArticleBox {
+    padding: 60px;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .HomeStepsBox {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .StepsHeader {
+    color: rgb(228, 94, 63);
+    font-weight: bold;
+  }
+
+ .HomeBackground {
+   background-color: white;
+ }
