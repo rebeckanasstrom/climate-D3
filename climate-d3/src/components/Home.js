@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import '../App.css';
+import { NavLink } from 'react-router-dom';
 
 export default class Home extends Component {
   render(){
   return (
 <div className="hejhopp">
 <div class="ui link four cards">
-<a class="ui card" href="/fossilfuel">
+<NavLink to="/fossilfuel">
+<div class="ui card">
     <div class="image">
       <img src="images/beach-pic.png" alt=""/>
     </div>
@@ -16,9 +18,11 @@ export default class Home extends Component {
         Read about fossil fuel emissions.
       </div>
     </div>
-</a>
+</div>
+</NavLink>
 
-<a class="ui card" href="/temperature">
+<NavLink to="/temperature">
+  <div class="ui card">
     <div class="image">
       <img src="images/beach-pic.png" alt=""/>
     </div>
@@ -28,9 +32,11 @@ export default class Home extends Component {
         Read about global temperatures.
       </div>
     </div>
-</a>
+</div>
+</NavLink>
 
-<a class="ui card" href="/glacier">
+<NavLink to="/glacier">
+  <div class="ui card">
     <div class="image">
       <img src="images/beach-pic.png" alt=""/>
     </div>
@@ -40,9 +46,11 @@ export default class Home extends Component {
         Read about glacier sizes.
       </div>
     </div>
-</a>
+</div>
+</NavLink>
 
-<a class="ui card" href="/sealevel">
+<NavLink to="/sealevel">
+  <div class="ui card">
     <div class="image">
       <img src="images/beach-pic.png" alt=""/>
     </div>
@@ -52,7 +60,8 @@ export default class Home extends Component {
         Read about rising sea levels.
       </div>
     </div>
-</a>
+</div>
+</NavLink>
 </div>
 </div>
 

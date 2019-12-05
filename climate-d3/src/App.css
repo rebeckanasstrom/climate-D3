@@ -53,7 +53,7 @@ padding: 10em;
   margin: 0.8em;
   }
 
-  .description {
-    font-family: 'Alda ot cev'; 
-    margin-bottom: 2.5em;
+.description {      
+  font-family: 'Alda ot cev', serif; 
+  margin-bottom: 2.5em;
   }
