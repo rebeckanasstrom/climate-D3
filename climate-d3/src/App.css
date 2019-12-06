@@ -77,3 +77,15 @@ padding: 10em;
  .HomeBackground {
    background-color: white;
  }
+
+ .FossilArticleBox {
+  padding: 60px;
+  justify-content: space-around;
+ }
+
+ .fossilHeader {
+  color: #E94D95;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+
