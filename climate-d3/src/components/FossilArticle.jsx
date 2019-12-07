@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class FossilArticle extends Component {
     render() {
         return(
-            <div class="ui basic segment">
+            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
                         <h1 className="fossilHeader"> Fossil Fuel emissions - should we worry?</h1>
@@ -12,7 +12,7 @@ class FossilArticle extends Component {
                         <h2>Temperatures are rising every year. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src="/images/waterfall.jpg"  style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src="/images/waterfall.jpg"  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">

@@ -37,8 +37,8 @@ class FossilData extends Component {
 
     render(){
         return(
-            <div style={{background: "rgba(250, 211, 202, 0.15)"}}>
-                <h1 style={{color: "rgb(228, 94, 63)", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
+            <div>
+                <h1 style={{color: "#E94D95", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
                 <FossilLine 
                 chartData={this.state.fuelEmissionsChart} />
             </div>

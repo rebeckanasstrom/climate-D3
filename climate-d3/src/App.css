@@ -89,3 +89,9 @@ padding: 10em;
   padding-bottom: 30px;
  }
 
+ .FossilDataBox {
+   background-color: white;
+   padding: 60px;
+   display: inline-flex;
+   justify-content: space-around;
+ }
