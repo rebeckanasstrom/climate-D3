@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60e26e989f29f87c80218fcd9c3f4eb0",
+    "revision": "aea0daa39fd2bbefaaebc3402697d698",
     "url": "/climate-D3/index.html"
   },
   {
-    "revision": "35f16639ef653a3b0632",
+    "revision": "803874d864657630d4b2",
     "url": "/climate-D3/static/css/2.cfcfee89.chunk.css"
   },
   {
-    "revision": "cb2e351afd3aac0c666c",
+    "revision": "db81b211e38e18328dc5",
     "url": "/climate-D3/static/css/main.9971aaac.chunk.css"
   },
   {
-    "revision": "35f16639ef653a3b0632",
-    "url": "/climate-D3/static/js/2.f46f4861.chunk.js"
+    "revision": "803874d864657630d4b2",
+    "url": "/climate-D3/static/js/2.679ea1c4.chunk.js"
   },
   {
-    "revision": "cb2e351afd3aac0c666c",
-    "url": "/climate-D3/static/js/main.a6124152.chunk.js"
+    "revision": "db81b211e38e18328dc5",
+    "url": "/climate-D3/static/js/main.3e4f3512.chunk.js"
   },
   {
     "revision": "9451a4891f4683f70d8c",
     "url": "/climate-D3/static/js/runtime-main.c09df392.js"
+  },
+  {
+    "revision": "2c6ccd7ff2ef4775d2400f7776337697",
+    "url": "/climate-D3/static/media/beach-hero.2c6ccd7f.jpg"
+  },
+  {
+    "revision": "60960b3014c60b9c5bfe175babf16fc2",
+    "url": "/climate-D3/static/media/beach-pic.60960b30.png"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -90,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/climate-D3/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "e71ca5c2d686b551180ad94a767c0299",
+    "url": "/climate-D3/static/media/waterfall.e71ca5c2.jpg"
   }
 ]);

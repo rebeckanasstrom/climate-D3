@@ -1,26 +1,29 @@
 {
   "files": {
     "main.css": "/climate-D3/static/css/main.9971aaac.chunk.css",
-    "main.js": "/climate-D3/static/js/main.a6124152.chunk.js",
-    "main.js.map": "/climate-D3/static/js/main.a6124152.chunk.js.map",
+    "main.js": "/climate-D3/static/js/main.3e4f3512.chunk.js",
+    "main.js.map": "/climate-D3/static/js/main.3e4f3512.chunk.js.map",
     "runtime-main.js": "/climate-D3/static/js/runtime-main.c09df392.js",
     "runtime-main.js.map": "/climate-D3/static/js/runtime-main.c09df392.js.map",
     "static/css/2.cfcfee89.chunk.css": "/climate-D3/static/css/2.cfcfee89.chunk.css",
-    "static/js/2.f46f4861.chunk.js": "/climate-D3/static/js/2.f46f4861.chunk.js",
-    "static/js/2.f46f4861.chunk.js.map": "/climate-D3/static/js/2.f46f4861.chunk.js.map",
+    "static/js/2.679ea1c4.chunk.js": "/climate-D3/static/js/2.679ea1c4.chunk.js",
+    "static/js/2.679ea1c4.chunk.js.map": "/climate-D3/static/js/2.679ea1c4.chunk.js.map",
     "index.html": "/climate-D3/index.html",
-    "precache-manifest.d1793712a85c090675165410763a5b3b.js": "/climate-D3/precache-manifest.d1793712a85c090675165410763a5b3b.js",
+    "precache-manifest.187be48a01dac33697d32a365329b531.js": "/climate-D3/precache-manifest.187be48a01dac33697d32a365329b531.js",
     "service-worker.js": "/climate-D3/service-worker.js",
     "static/css/2.cfcfee89.chunk.css.map": "/climate-D3/static/css/2.cfcfee89.chunk.css.map",
     "static/css/main.9971aaac.chunk.css.map": "/climate-D3/static/css/main.9971aaac.chunk.css.map",
+    "static/media/beach-hero.jpg": "/climate-D3/static/media/beach-hero.2c6ccd7f.jpg",
+    "static/media/beach-pic.png": "/climate-D3/static/media/beach-pic.60960b30.png",
     "static/media/semantic.min.css": "/climate-D3/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/cosmologo.png": "/climate-D3/static/media/cosmologo.ae3b5e8b.png"
+    "static/media/cosmologo.png": "/climate-D3/static/media/cosmologo.ae3b5e8b.png",
+    "static/media/waterfall.jpg": "/climate-D3/static/media/waterfall.e71ca5c2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c09df392.js",
     "static/css/2.cfcfee89.chunk.css",
-    "static/js/2.f46f4861.chunk.js",
+    "static/js/2.679ea1c4.chunk.js",
     "static/css/main.9971aaac.chunk.css",
-    "static/js/main.a6124152.chunk.js"
+    "static/js/main.3e4f3512.chunk.js"
   ]
 }
