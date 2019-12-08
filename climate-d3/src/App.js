@@ -16,6 +16,7 @@ function App() {
       <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/climate-D3/" exact component={Home} />
           <Route path="/fossilfuel" component={FossilFuel} />
           <Route path="/temperature" component={Temperature} />
           <Route path="/glacier" component={Glacier} />

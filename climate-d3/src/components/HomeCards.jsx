@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import Beach2 from '../beach-pic.png';
 
 class HomeCards extends Component {
     render(){
@@ -10,7 +11,7 @@ class HomeCards extends Component {
 <NavLink to="/fossilfuel">
 <div class="ui card" style={{margin: "50px"}}>
     <div class="image">
-      <img src="images/beach-pic.png" alt=""/>
+      <img src={Beach2} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">FOSSIL FUEL</div>
@@ -24,7 +25,7 @@ class HomeCards extends Component {
 <NavLink to="/temperature">
   <div class="ui card" style={{margin: "50px"}}>
     <div class="image">
-      <img src="images/beach-pic.png" alt=""/>
+      <img src={Beach2} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">TEMPERATURE</div>
@@ -38,7 +39,7 @@ class HomeCards extends Component {
 <NavLink to="/glacier">
   <div class="ui card" style={{margin: "50px"}}>
     <div class="image">
-      <img src="images/beach-pic.png" alt=""/>
+      <img src={Beach2} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">GLACIER</div>
@@ -52,7 +53,7 @@ class HomeCards extends Component {
 <NavLink to="/sealevel">
   <div class="ui card" style={{margin: "50px"}}>
     <div class="image">
-      <img src="images/beach-pic.png" alt=""/>
+      <img src={Beach2} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">SEA LEVELS</div>

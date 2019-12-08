@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Waterfall from '../waterfall.jpg';
 
 class FossilArticle extends Component {
     render() {
@@ -12,7 +13,7 @@ class FossilArticle extends Component {
                         <h2>Temperatures are rising every year. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src="/images/waterfall.jpg"  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">
