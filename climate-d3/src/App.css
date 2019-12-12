@@ -95,3 +95,9 @@ padding: 10em;
    display: inline-flex;
    justify-content: space-around;
  }
+
+ .tipHeader {
+  color: #E94D95;
+  padding-top: 30px;
+  padding-bottom: 10px;
+ }
