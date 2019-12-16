@@ -3,6 +3,7 @@ import '../App.css';
 import FossilData from './FossilData';
 import { FossilArticle } from './AllArticles';
 import { FossilTips } from './AllTips';
+import { FossilBar } from './AllBarCharts';
 
 
 export default class FossilFuel extends Component {
@@ -12,6 +13,7 @@ export default class FossilFuel extends Component {
       <FossilArticle />
       <FossilData />
       <FossilTips />
+      <FossilBar />
     </div>
     )
 }

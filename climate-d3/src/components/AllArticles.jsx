@@ -94,22 +94,32 @@ class GlacierArticle extends Component {
                         <h1 className="fossilHeader">The earths glaciers are melting away bit by bit</h1>
                     </div>
                     <div>
-                        <h2>Temperatures are rising every year. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
+                        <h2>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. </h2>
                     </div>
                     <div>
                         <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What will happen to wildlife?</h3>
-                            <p style={{textAlign:"left"}}>The planet is dying. I've heard it, you've heard it. We've all heard it. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>Why are the glaciers melting?</h3>
+                            <p style={{textAlign:"left"}}>Since the industrial revolution, where society went from hand production methods to mass production through 
+                            machines, carbon dioxide and other greenhouse gas emissions have raised the earth's temperatures. Once a glacier starts to break down and 
+                            melt, the interaction between meltwater and sea water with the glaciers structure, can cause it to rapidly melt and retreat up on land.</p></div>
                         <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What about the food on your plate?</h3>
-                            <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>How does this affect humans?</h3>
+                            <p style={{textAlign:"left"}}>If the glaciers continue to melt in a rapid way, the consequences will affect the whole planet. As sea ice and 
+                            glaciers melt and oceans warm, ocean currents will continue to disrupt weather patterns. Flooding will happen more frequently and storms will 
+                            increase, causing an insane amount of recovery bills. Both fishermen and fishing industries will be affected, since the warmer waters will 
+                            affect where and when fish spawn.</p>
                         </div>
                         <div class="column">
                         <h3 style={{textAlign:"left", color: "#E94D95"}}>How will it affect future societies?</h3>
-                             <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                             <p style={{textAlign:"left"}}>In the Arctic, polar bears rely on sea ice to hunt and store energy. Now that the sea ice melts earlier in the 
+                             spring, it causes the bears to go into hibernation roughly 10 kilos lighter and in poorer condition than before. Unhealthy bears can lead to 
+                             lower reproduction rates and higher cub mortality, which eventually will lead to local extinction. Walruses depend on sea ice, as it is a 
+                            platform where they feed and rest. As the sea ice melts earlier, it forces the Walruses ashore and it could be up to 35,000 walruses in one 
+                            place, this is especially deadly for walrus calves, since they can be crushed in stampedes.
+</p>
                         </div>
                     </div>
                     

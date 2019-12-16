@@ -5,6 +5,7 @@
 
 p {
   font-family: 'Alda ot cev', 'Times New Roman', serif;
+  font-size: 1.1rem;
 }
 
 nav {
@@ -91,7 +92,7 @@ padding: 10em;
 
  .FossilDataBox {
    background-color: white;
-   padding: 60px;
+   padding: 0px 60px 60px 60px;
    display: inline-flex;
    justify-content: space-around;
  }
