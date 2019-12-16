@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Beach2 from '../beach-pic.png';
+import Factory from '../factory.jpg';
+import Drylandscape from '../drylandscape.jpg';
+import Flood from '../flood.jpg';
+import Meltingice from '../meltingice.jpg';
 
 class HomeCards extends Component {
     render(){
@@ -9,9 +12,9 @@ class HomeCards extends Component {
               <div className="HomeCardsBox">
 <div class="ui link four cards">
 <NavLink to="/fossilfuel">
-<div class="ui card" style={{margin: "50px"}}>
+<div class="ui card" style={{margin: "30px"}}>
     <div class="image">
-      <img src={Beach2} alt=""/>
+      <img src={Factory} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">FOSSIL FUEL</div>
@@ -23,9 +26,9 @@ class HomeCards extends Component {
 </NavLink>
 
 <NavLink to="/temperature">
-  <div class="ui card" style={{margin: "50px"}}>
+  <div class="ui card" style={{margin: "30px"}}>
     <div class="image">
-      <img src={Beach2} alt=""/>
+      <img src={Drylandscape} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">TEMPERATURE</div>
@@ -37,9 +40,9 @@ class HomeCards extends Component {
 </NavLink>
 
 <NavLink to="/glacier">
-  <div class="ui card" style={{margin: "50px"}}>
+  <div class="ui card" style={{margin: "30px"}}>
     <div class="image">
-      <img src={Beach2} alt=""/>
+      <img src={Meltingice} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">GLACIER</div>
@@ -51,9 +54,9 @@ class HomeCards extends Component {
 </NavLink>
 
 <NavLink to="/sealevel">
-  <div class="ui card" style={{margin: "50px"}}>
+  <div class="ui card" style={{margin: "30px"}}>
     <div class="image">
-      <img src={Beach2} alt=""/>
+      <img src={Flood} alt=""/>
     </div>
     <div class="content">
       <div class="header" className="changeColor">SEA LEVELS</div>

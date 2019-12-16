@@ -7,7 +7,7 @@ class TempLine extends Component {
       <div class="ui basic segment">
         <div className="FossilDataBox"> 
             <LineChart
-            width={1200}
+            width={1100}
             height={700}
             data={this.props.chartData}
             margin={{

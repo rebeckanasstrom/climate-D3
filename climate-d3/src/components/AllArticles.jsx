@@ -1,5 +1,8 @@
 import React, { Component } from 'react'; 
-import Waterfall from '../waterfall.jpg';
+import Factory from '../factory.jpg';
+import Drylandscape from '../drylandscape.jpg';
+import Flood from '../flood.jpg';
+import Meltingice from '../meltingice.jpg';
 
 class FossilArticle extends Component {
     render() {
@@ -7,25 +10,36 @@ class FossilArticle extends Component {
             <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 className="fossilHeader"> Fossil Fuel emissions - should we worry?</h1>
+                        <h1 className="fossilHeader"> Fossil Fuels - the dirty facts </h1>
                     </div>
                     <div>
-                        <h2>Temperatures are rising every year. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
+                        <h2 style={{fontSize:"1.5rem"}}> Everyone’s heard it by now: fossil fuels are one of the main causes of climate change. But what exactly are they, and how are they messing up 
+                            the future of our planet? </h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src={Factory}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
+                        <div class="column"> 
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>Effective, but not sustainable</h3>
+                            <p style={{textAlign:"left"}}>For over a hundred years, burning fossil fuels has been the main energy source 
+                            for most of our every-day activities. They fuel cars, light up our homes and keep us warm. It’s estimated that 
+                            fossil fuels supply more than 80% of the world’s total energy. The efficiency/effectiveness of fossil fuels, however, 
+                            doesn’t come without a price. </p></div>
                         <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What will happen to wildlife?</h3>
-                            <p style={{textAlign:"left"}}>The planet is dying. I've heard it, you've heard it. We've all heard it. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                        <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What about the food on your plate?</h3>
-                            <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>So what on earth are fossil fuels?</h3>
+                            <p style={{textAlign:"left"}}>Fossil fuels are basically remains from a bunch of dead plants and animals, buried deep 
+                            underneath the earth’s crust. The three main fossil fuels include coal, petroleum and natural gas. When these are burned, 
+                            they release greenhouse gases. In turn, these greenhouse gases trap heat in our atmosphere, making them the main contributors 
+                            to global warming and climate change. </p>
                         </div>
                         <div class="column">
-                        <h3 style={{textAlign:"left", color: "#E94D95"}}>How will it affect future societies?</h3>
-                             <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h3 style={{textAlign:"left", color: "#E94D95"}}>Is it too late?</h3>
+                             <p style={{textAlign:"left"}}>Today, most people are aware of fossil fuels and their negative impacts on our planet. 
+                             There have even been global efforts to address them, such as the 2015 Paris Climate Agreement. Despite this, carbon 
+                             dioxide emissions from fossil fuels continue to rise. Don’t worry, though! There is still time. Just scroll down to 
+                             find a few easy tips on how you can lower the amount of carbon dioxide you emit, and help save the planet.
+</p>
                         </div>
                     </div>
                 </div>
@@ -43,12 +57,12 @@ class TempArticle extends Component {
                         <h1 className="fossilHeader"> Global warming and it's devastating effect on our nature</h1>
                     </div>
                     <div>
-                        <h2>Temperatures are rising every year and the global temperature has increased by 
+                    <h2 style={{fontSize:"1.5rem"}}>Temperatures are rising every year and the global temperature has increased by 
                             one degree in the last century. It might not sound so much but natural disasters, 
-                            heat waves, intense drought and wildfires are all consequences of that one degree.</h2>
+                            heat waves, intense droughts and wildfires are all consequences of that one degree.</h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src={Drylandscape}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">
@@ -94,10 +108,10 @@ class GlacierArticle extends Component {
                         <h1 className="fossilHeader">The earths glaciers are melting away bit by bit</h1>
                     </div>
                     <div>
-                        <h2>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. </h2>
+                    <h2 style={{fontSize:"1.5rem"}}>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. </h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src={Meltingice}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">
@@ -138,22 +152,42 @@ class SeaArticle extends Component {
                         <h1 className="fossilHeader">Sea levels are rising, and rising, and rising</h1>
                     </div>
                     <div>
-                        <h2>Temperatures are rising every year. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
+                    <h2 style={{fontSize:"1.5rem"}}>Global average sea level has risen about 21-24 cm since 1880. Almost a third of that has happened in the last two and a half decades. 
+                            Ice loss from melting ice sheets and glaciers near the poles are one of the most significant contributions to global sea level rise</h2>
                     </div>
                     <div>
-                        <img class="ui fluid image" src={Waterfall}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                        <img class="ui fluid image" src={Flood}  alt="Waterfall in a forest." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div class="ui padded three column grid">
                         <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What will happen to wildlife?</h3>
-                            <p style={{textAlign:"left"}}>The planet is dying. I've heard it, you've heard it. We've all heard it. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>How are sea levels measured?</h3>
+                            <p style={{textAlign:"left"}}>Unfortunately, you can't just put a long ruler into the ocean to measure the sea level, 
+                            since it varies from place to place to differences in geography, gravity, temperature, ocean currents and tides. The best 
+                            way to measure these changes is using a satellite called Jason-3. The satellite bounces radio waves off the ocean surface, 
+                            then times how long it takes for these signals to return. In 10 days, the satellite has measured the ocean height for the 
+                            entire planet. Scientists can use this measurement and give us an average sea level for the whole planet. The sea level can 
+                            also be measured by using an instrument called tide gauges. They exist in many ports and harbours, and they record the height 
+                            of the rising and falling tide.</p></div>
                         <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>What about the food on your plate?</h3>
-                            <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3 style={{textAlign:"left", color: "#E94D95"}}>Why is the sea rising?</h3>
+                            <p style={{textAlign:"left"}}>There are primarily two factors that affect the global sea level rise. 
+                            Thermal expansion and melting of land ice. Because of the greenhouse gases that are trapped in our atmosphere, 
+                            the global temperature has increased which in turn affects the sea level. Thermal expansion means that when water 
+                            is getting warmer it's also expanding and covering a larger area. The second factor includes glaciers and ice sheets 
+                            and together they cover ten percent of the world's land area. When the land ice is melting, more and more water is 
+                            added into the oceans and the sea level is rising. 
+</p>
                         </div>
                         <div class="column">
                         <h3 style={{textAlign:"left", color: "#E94D95"}}>How will it affect future societies?</h3>
-                             <p style={{textAlign:"left"}}>The problem isn’t that people don’t understand that humanity screwed up. Oh, we understand. The problem is that people like you and me get stuck feeling like we’re not doing enough. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                             <p style={{textAlign:"left"}}>The effects of a rising sea level can be devastating! If you live in a 
+                             coastal community, the rising sea level is an imminent threat. Thousands of people may be forced to leave 
+                             their homes if the sea continues to rise. Extreme weather, storms and flooding are all getting more and more
+                             common and there is a clear link between them and the rising sea level. Even entire islands can disappear if 
+                             climate change continues to affect the sea level. Islands in the Pacific Ocean are already suffering from the 
+                             consequences and many islanders must live with a constant fear that their home could be swallowed up by the sea. 
+                             Let's stop the sea level rise in time!
+</p>
                         </div>
                     </div>
                     

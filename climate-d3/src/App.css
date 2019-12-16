@@ -43,10 +43,6 @@ nav {
  color:#54b2cc;
 }
 
-.hejhopp {
-padding: 10em;
-}
-
 .changeColor {
   color: rgb(228, 94, 63);
   font-weight: bold;
@@ -88,6 +84,7 @@ padding: 10em;
   color: #E94D95;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 2.5rem;
  }
 
  .FossilDataBox {
@@ -102,3 +99,11 @@ padding: 10em;
   padding-top: 30px;
   padding-bottom: 10px;
  }
+
+.tipsPic {
+height: 70px;
+width: 70px;
+margin: auto;
+margin-top: 45px;
+}
+

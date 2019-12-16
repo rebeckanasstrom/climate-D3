@@ -6,7 +6,7 @@ class GlacierLine extends Component {
     return (
       <div class="ui basic segment">
       <div className="FossilDataBox">
-      <AreaChart width={1200} height={700} data={this.props.chartData}
+      <AreaChart width={1100} height={700} data={this.props.chartData}
             margin={{top: 50, right: 30, left: 30, bottom: 5}}>
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="Year"/>
