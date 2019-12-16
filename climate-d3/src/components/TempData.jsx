@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import TempLine from './TempLine';
-import Popup from "reactjs-popup";
+import { Button, Popup } from 'semantic-ui-react';
 
 class TempData extends Component {
     state={
@@ -37,23 +37,12 @@ class TempData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>Temperatures getting closer to the +2 degree mark</h1>
                 <br />
-                
-                <Popup className='popUpRuta' trigger={open => (
-                    <button className="pop-button">How do i read the diagram?</button>
-                    )}
-                    position="bottom center"
-                    
-                    closeOnDocumentClick
-                >
-                    
-                    <span> <strong>Total:</strong> Total carbon emissions from fossil fuel consumption and cement production (million metric tons of carbon)<br/>
-                    <strong>Gas fuel:</strong> Carbon emissions from gas fuel consumption<br/> 
-                    <strong>Liquid fuel:</strong> Carbon emissions from liquid fuel consumption<br/>
-                    <strong>Solid fuel:</strong> Carbon emissions from solid fuel consumption<br/>
-                    <strong>Cement production:</strong> Carbon emissions from cement production<br/>
-                    <strong>Gas flaring:</strong> Carbon emissions from gas flaring<br/> </span>
-                   
-               </Popup>   
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                    <p>Temperature is measured by collecting data from rougly 6 300 meterological stations around the world. </p>
+                    <p>The collecting is done by scientists at NASA, who then compiles all the information to show a global average temperature change per year. </p>
+                    <br/>
+                    <p><i>Use the slider at the bottom of the diagram to narrow down the years that are shown.</i></p>
+                </Popup>
                <div class="ui grid">
                <div class="eleven wide column">
                 <TempLine 
@@ -70,6 +59,7 @@ class TempData extends Component {
                         The world is unbalanced and it needs some help ASAP. </p>
                 </div>
                 </div>
+                
         </div>
         );
     }

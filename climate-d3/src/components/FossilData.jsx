@@ -41,15 +41,16 @@ class FossilData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
                 <br />
-                    <Popup
-                    trigger={<Button icon='info' label='How do I read the diagram?' wide='very' />}
-                    content='The numbers show the amount of fossil fuel emissions from different sources over a number of years. 
-                    All the amounts are in the amount of million metric tons of carbon.'
-                    style={{borderRadius: 0,
-                        opacity: 0.7,
-                        padding: '2em'}}
-                    inverted
-                    />
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                    <p><strong>Gas Fuel:</strong> fuels that are gas in their normal condition, like methane, propane and carbon monoxide.</p>
+                    <p><strong>Liquid Fuel:</strong> a broad term to describe different liquid fuels, such as petroleum and oil.</p>
+                    <p><strong>Solid Fuel:</strong> refers to coal based fuels, such as coal, charcoal, soot and wood. </p>
+                    <p><strong>Cement:</strong> in order to make cement, chemical processes and burning of materials and fuel is required, in turn releasing high amounts of carbon dioxide.</p>
+                    <p><strong>Gas Flaring:</strong>  the burning of gas and liquids in industrial processes, for example in petroleum refineries and chemical plants.</p>
+                    <br/>
+                    <p><i>Every category has it's own color and the total amount is represented by a red line at the top. Use the slider at the bottom of the diagram to narrow down the years that are shown.</i></p>
+
+                </Popup>
                 <div class="ui grid">
                 <div class="eleven wide column">
                 <FossilLine 
