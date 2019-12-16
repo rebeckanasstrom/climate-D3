@@ -51,7 +51,7 @@ class FossilData extends Component {
                     inverted
                     />
                 <div class="ui grid">
-                <div class="ten wide column">
+                <div class="eleven wide column">
                 <FossilLine 
                 chartData={this.state.fuelEmissionsChart} />
                 </div>
