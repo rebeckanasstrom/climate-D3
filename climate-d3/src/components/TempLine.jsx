@@ -18,7 +18,7 @@ class TempLine extends Component {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Line type="monotone" dataKey="Temperature" stroke="red" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
+            <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="red" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
             <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
           </LineChart>
       </div>

@@ -48,7 +48,8 @@ class FossilData extends Component {
                     <p><strong>Cement:</strong> in order to make cement, chemical processes and burning of materials and fuel is required, in turn releasing high amounts of carbon dioxide.</p>
                     <p><strong>Gas Flaring:</strong>  the burning of gas and liquids in industrial processes, for example in petroleum refineries and chemical plants.</p>
                     <br/>
-                    <p><i>Every category has it's own color and the total amount is represented by a red line at the top. Use the slider at the bottom of the diagram to narrow down the years that are shown.</i></p>
+                    <p><i>Emissions are measured in "million metric tonnes of carbon dioxide equivalents" (MMTCDE). Every category has its own color and is represented by a <br/>
+                    red line at the top. Use the slider at the bottom of the diagram to narrow down the years that are shown.</i></p>
 
                 </Popup>
                 <div class="ui grid">
@@ -58,8 +59,8 @@ class FossilData extends Component {
                 </div>
                 <div class="four wide column" style={{marginTop: '60px', padding: '20px', textAlign: 'left'}}>
                 <h3 style={{color: "#E94D95"}}>So, what does this mean, really?</h3>
-                    <p>You’ll often encounter the term “million metric tonnes of carbon” when reading about fossil fuel emissions. Crystal clear? 
-                        Yeah, no, we didn’t get it either. Simply put, fossil fuel emissions are measured by comparing the emissions from various 
+                    <p>You’ll often encounter the term “million metric tonnes of carbon dioxide equivalents” (MMTCDE for short) when reading about fossil fuel emissions.
+                        Crystal clear? Yeah, no, we didn’t get it either. Simply put, fossil fuel emissions are measured by comparing the emissions from various 
                         greenhouse gases based on their global warming potential. The global warming potential, in turn, describes how long a greenhouse 
                         gas is active in the atmosphere. Getting the right numbers means you multiply the tonnes of the gas with their respective global 
                         warming potentials, ending up with the final million metric tonne of carbon measurement. </p>
