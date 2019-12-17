@@ -13,7 +13,7 @@ class GlacierLine extends Component {
         <YAxis/>
         <Tooltip/>
           <Legend />
-          <Area type="monotone" dataKey="Glacier Thickness (average value)" stackId="1" stroke="blue" fill="lightblue" legendType="circle"/>
+          <Area type="monotone" dataKey="Glacier Mass Balance (average value in mm)" stackId="1" stroke="blue" fill="lightblue" legendType="circle"/>
           <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
       </AreaChart>
       </div>

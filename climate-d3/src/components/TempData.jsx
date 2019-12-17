@@ -18,7 +18,7 @@ class TempData extends Component {
         data.reverse().map(data =>
             filterTemp.push({
                 Year: data.Year,
-                Temperature: data.Mean,
+                "Temperature (degrees celcius)": data.Mean,
 
             })
         );
