@@ -10,6 +10,9 @@ function Nav() {
                <img src={Logo} alt="logo" className="logo-style"/>
            </NavLink>
        <ul className="nav-links">
+       <NavLink className="link-style" activeStyle={{color:'#54b2cc'}} to="/home">
+               <li>HOME</li>
+               </NavLink>
           <NavLink className="link-style" activeStyle={{color:'#54b2cc'}} to="/fossilfuel">
                <li>FOSSIL FUEL</li>
            </NavLink>

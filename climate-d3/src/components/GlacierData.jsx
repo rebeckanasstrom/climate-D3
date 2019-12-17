@@ -18,7 +18,7 @@ class GlacierData extends Component {
         data.map(data =>
             filterGlacier.push({
                 Year: data.Year,
-                "Glacier Mass Balance (average value in mm)": data["Mean cumulative mass balance"]
+                "Glacier Mass Balance (average value in meters)": data["Mean cumulative mass balance"]
             })
         );
 
