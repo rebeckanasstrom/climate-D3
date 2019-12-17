@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/climate-D3/static/css/main.9971aaac.chunk.css",
-    "main.js": "/climate-D3/static/js/main.6254aaba.chunk.js",
-    "main.js.map": "/climate-D3/static/js/main.6254aaba.chunk.js.map",
+    "main.css": "/climate-D3/static/css/main.958351c5.chunk.css",
+    "main.js": "/climate-D3/static/js/main.f49ffb1e.chunk.js",
+    "main.js.map": "/climate-D3/static/js/main.f49ffb1e.chunk.js.map",
     "runtime-main.js": "/climate-D3/static/js/runtime-main.c09df392.js",
     "runtime-main.js.map": "/climate-D3/static/js/runtime-main.c09df392.js.map",
-    "static/css/2.cfcfee89.chunk.css": "/climate-D3/static/css/2.cfcfee89.chunk.css",
-    "static/js/2.679ea1c4.chunk.js": "/climate-D3/static/js/2.679ea1c4.chunk.js",
-    "static/js/2.679ea1c4.chunk.js.map": "/climate-D3/static/js/2.679ea1c4.chunk.js.map",
+    "static/css/2.6545b850.chunk.css": "/climate-D3/static/css/2.6545b850.chunk.css",
+    "static/js/2.3f6d10a9.chunk.js": "/climate-D3/static/js/2.3f6d10a9.chunk.js",
+    "static/js/2.3f6d10a9.chunk.js.map": "/climate-D3/static/js/2.3f6d10a9.chunk.js.map",
     "index.html": "/climate-D3/index.html",
-    "precache-manifest.abef53078cd6687600f50b23ead3e2c5.js": "/climate-D3/precache-manifest.abef53078cd6687600f50b23ead3e2c5.js",
+    "precache-manifest.81c8d107d5a62c25a8eca5f3a0dca67f.js": "/climate-D3/precache-manifest.81c8d107d5a62c25a8eca5f3a0dca67f.js",
     "service-worker.js": "/climate-D3/service-worker.js",
-    "static/css/2.cfcfee89.chunk.css.map": "/climate-D3/static/css/2.cfcfee89.chunk.css.map",
-    "static/css/main.9971aaac.chunk.css.map": "/climate-D3/static/css/main.9971aaac.chunk.css.map",
-    "static/media/beach-hero.jpg": "/climate-D3/static/media/beach-hero.2c6ccd7f.jpg",
-    "static/media/beach-pic.png": "/climate-D3/static/media/beach-pic.60960b30.png",
+    "static/css/2.6545b850.chunk.css.map": "/climate-D3/static/css/2.6545b850.chunk.css.map",
+    "static/css/main.958351c5.chunk.css.map": "/climate-D3/static/css/main.958351c5.chunk.css.map",
     "static/media/semantic.min.css": "/climate-D3/static/media/outline-icons.ef60a4f6.woff",
     "static/media/cosmologo.png": "/climate-D3/static/media/cosmologo.ae3b5e8b.png",
-    "static/media/waterfall.jpg": "/climate-D3/static/media/waterfall.e71ca5c2.jpg"
+    "static/media/drylandscape.jpg": "/climate-D3/static/media/drylandscape.a9b0f5d6.jpg",
+    "static/media/factory.jpg": "/climate-D3/static/media/factory.0925d6f1.jpg",
+    "static/media/flood.jpg": "/climate-D3/static/media/flood.3d9cb43d.jpg",
+    "static/media/meltingice.jpg": "/climate-D3/static/media/meltingice.c695321a.jpg",
+    "static/media/mountain-hero.jpg": "/climate-D3/static/media/mountain-hero.ce3d657c.jpg",
+    "static/media/plastic.png": "/climate-D3/static/media/plastic.e0bda221.png",
+    "static/media/subway.png": "/climate-D3/static/media/subway.cdadc617.png",
+    "static/media/tools.png": "/climate-D3/static/media/tools.15f6d0b0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c09df392.js",
-    "static/css/2.cfcfee89.chunk.css",
-    "static/js/2.679ea1c4.chunk.js",
-    "static/css/main.9971aaac.chunk.css",
-    "static/js/main.6254aaba.chunk.js"
+    "static/css/2.6545b850.chunk.css",
+    "static/js/2.3f6d10a9.chunk.js",
+    "static/css/main.958351c5.chunk.css",
+    "static/js/main.f49ffb1e.chunk.js"
   ]
 }
