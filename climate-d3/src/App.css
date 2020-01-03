@@ -1,3 +1,40 @@
+div.ui.secondary.menu {
+  background-color: #f7eae3;
+  margin: 0;
+  font-family: 'Century Gothic', sans-serif;
+  height: 50px;
+}
+
+div.ui.secondary.menu a {
+  color: rgb(228, 94, 63);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.ui.secondary.menu .active.item {
+  color: rgba(84, 178, 204, 1) !important; 
+  font-weight: 700;
+}
+
+  .ui.secondary.menu a:hover {
+    color: rgba(84, 178, 204, 1) !important;
+}
+
+.menuLinks {
+  margin: auto;
+}
+
+.menuLogo {
+  margin:auto;
+  margin-right: 1000px; 
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+ }
+
 .App {
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
@@ -6,41 +43,6 @@
 p {
   font-family: 'Alda ot cev', 'Times New Roman', serif;
   font-size: 1.1rem;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 5vh;
-  background: rgba(250, 211, 202, 0.43);
-  color: rgb(228, 94, 63);
-}
-
-.nav-links {
-  width: 30%;
-  font-size: 1em;
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: right;
-  list-style: none;
-  margin-left: 50%;
-  padding-top: 1em;
-}
-
-.link-style {
-  color: rgb(228, 94, 63);
-  text-decoration: none;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.logo-style {
-  width: 7em;
-}
-
-.link-style:hover {
- color:#54b2cc;
 }
 
 .changeColor {
@@ -94,7 +96,7 @@ nav {
    justify-content: space-around;
  }
 
- .tipHeader {
+.tipHeader {
   color: #E94D95;
   padding-top: 30px;
   padding-bottom: 10px;
