@@ -3,6 +3,7 @@ import '../App.css';
 import SeaData from './SeaData';
 import { SeaArticle } from './AllArticles';
 import { SeaTips } from './AllTips';
+import { Footer } from './Footer';
 
 export default class SeaLevel extends Component {
   render(){
@@ -11,6 +12,7 @@ export default class SeaLevel extends Component {
       <SeaArticle />
       <SeaData />
       <SeaTips />
+      <Footer />
     </div>
   )
 }

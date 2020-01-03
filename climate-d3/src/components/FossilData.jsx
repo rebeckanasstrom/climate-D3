@@ -41,7 +41,7 @@ class FossilData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
                 <br />
-                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p><strong>Gas Fuel:</strong> fuels that are gas in their normal condition, like methane, propane and carbon monoxide.</p>
                     <p><strong>Liquid Fuel:</strong> a broad term to describe different liquid fuels, such as petroleum and oil.</p>
                     <p><strong>Solid Fuel:</strong> refers to coal based fuels, such as coal, charcoal, soot and wood. </p>

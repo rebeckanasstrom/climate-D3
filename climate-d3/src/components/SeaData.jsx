@@ -36,7 +36,7 @@ class SeaData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
                 <br />
-                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>When talking about sea level measurements, we talk about data called “Global Mean Sea Level” or GMSL for short. What the numbers represent <br/>is the changes in sea levels for the world’s oceans since 1880, based on both long time tide measurements as well as recent satellite data. </p>
                     <p>The diagram shows the changes in absolute sea level in millimeters, the “height” of the ocean surface if you will, not taking into account <br/>whether nearby land is rising or falling.</p>
                     <br/>

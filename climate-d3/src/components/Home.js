@@ -4,6 +4,7 @@ import HomeCards from './HomeCards';
 import HomeHero from './HomeHero';
 import HomeArticle from './HomeArticle';
 import HomeSteps from './HomeSteps';
+import {Footer} from './Footer';
 
 export default class Home extends Component {
   render(){
@@ -13,6 +14,7 @@ export default class Home extends Component {
     <HomeArticle />
     <HomeCards />
     <HomeSteps />
+    <Footer />
     </div>
   )
 }

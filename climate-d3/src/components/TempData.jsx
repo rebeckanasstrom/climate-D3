@@ -37,7 +37,7 @@ class TempData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>Temperatures getting closer to the +2 degree mark</h1>
                 <br />
-                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>Temperature is measured by collecting data from rougly 6 300 meterological stations around the world. </p>
                     <p>The collecting is done by scientists at NASA, who then compiles all the information to show a global average temperature change per year. </p>
                     <br/>

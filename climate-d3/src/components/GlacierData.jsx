@@ -36,7 +36,7 @@ class GlacierData extends Component {
             <div>
                 <h1 style={{color: "#E94D95", marginTop: "50px"}}>A representation of the average thickness of glaciers over time</h1>
                 <br />
-                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing hoverable position="bottom center">
+                <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>So, glacier mass balance is the quantitative expression of a glacier’s changes in volume over time. The cumulative <br/>mass balance 
                         (which shows in the diagram below) is the mass of the glacier at a stated time, relative to its mass at some <br/>earlier time. Some 
                         glaciers have mass balance measurements going back decades, which means that scientists can analyse <br/>how mass balance is changing over time. </p>

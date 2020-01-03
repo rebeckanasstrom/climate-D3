@@ -3,6 +3,7 @@ import '../App.css';
 import TempData from './TempData';
 import { TempArticle } from './AllArticles';
 import { TempTips } from './AllTips';
+import { Footer } from './Footer';
 
 
 export default class Temperature extends Component {
@@ -12,6 +13,7 @@ export default class Temperature extends Component {
       <TempArticle />
       <TempData />
       <TempTips />
+      <Footer />
     </div>
   )
 }
