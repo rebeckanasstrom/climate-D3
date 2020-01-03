@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Brush, ComposedChart, Line, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { Brush, ComposedChart, Line, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 class FossilLine extends Component {
   render() {
@@ -12,7 +12,6 @@ class FossilLine extends Component {
         <XAxis dataKey="Year"/>
         <YAxis/>
         <Tooltip/>
-          <Legend />
           <Line type='monotone' dataKey='Total' stroke="red" strokeWidth="3px" dot={false} legendType="circle"/>
           <Area type="monotone" dataKey="Gas Fuel" stackId="1" stroke="#F8B195" fill="#F8B195" dot={false} legendType="circle"/>
           <Area type="monotone" dataKey="Solid Fuel" stackId="1" stroke="#355C7D" fill="#355C7D" dot={false} legendType="circle"/>
@@ -22,6 +21,7 @@ class FossilLine extends Component {
           <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
       </ComposedChart>
       </div>
+      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in an out in the diagram. Click and drag the sides to zoom and click and drag to pan.</h4> 
       </div>
     );
   }

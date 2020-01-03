@@ -91,7 +91,7 @@ p {
 
  .FossilDataBox {
    background-color: white;
-   padding: 0px 60px 60px 60px;
+   padding: 0px 60px 20px 60px;
    display: inline-flex;
    justify-content: space-around;
  }
@@ -108,6 +108,15 @@ width: 70px;
 margin: auto;
 margin-top: 45px;
 }
+
+.AccordionBox {
+  padding: 0px 60px 60px 60px;
+  justify-content: space-around;
+ }
+
+ .AccordionBox h3 {
+   color: #E94D95;
+ }
 
 .footerStyle {
   background-color: rgb(228, 94, 63);
