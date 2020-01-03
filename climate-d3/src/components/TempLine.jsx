@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Brush } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Brush } from 'recharts';
 
 class TempLine extends Component {
   render() {
@@ -17,11 +17,11 @@ class TempLine extends Component {
             <XAxis dataKey="Year" />
             <YAxis />
             <Tooltip />
-            <Legend />
             <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="red" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
             <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
           </LineChart>
       </div>
+      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in an out in the diagram. Click and drag the sides to zoom and click and drag to pan.</h4>
       </div>
     );
   }

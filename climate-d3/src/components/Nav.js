@@ -34,8 +34,6 @@ import { Menu } from 'semantic-ui-react';
 export default Nav;*/
 
 
-import { Input } from 'semantic-ui-react'
-import { Sticky } from 'semantic-ui-react'
 export default class MenuExampleSecondary extends Component {
   state = { activeItem: 'home' }
 
