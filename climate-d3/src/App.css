@@ -127,9 +127,11 @@ p {
  }
 
 .tipsPic {
-width: 200px;
+width: 170px;
 margin-left: 50px;
-margin-top: 20px;
+margin-top: 30px;
+background-color: #fcd2c9;
+padding: 20px;
 }
 
 .ui.segment {
