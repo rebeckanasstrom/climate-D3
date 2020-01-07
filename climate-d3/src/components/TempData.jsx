@@ -36,7 +36,7 @@ class TempData extends Component {
     render(){
         return(
             <div>
-                <h1 style={{color: "#E94D95", marginTop: "50px"}}>Temperatures getting closer to the +2 degree mark</h1>
+                <h1 style={{color: "rgb(84, 178, 204)", marginTop: "50px"}}>Temperatures getting closer to the +2 degree mark</h1>
                 <br />
                 <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>Temperature is measured by collecting data from rougly 6 300 meterological stations around the world. </p>

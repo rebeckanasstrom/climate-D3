@@ -17,8 +17,8 @@ class HomeCards extends Component {
       <img src={Factory} alt=""/>
     </div>
     <div class="content">
-      <div class="header" className="changeColor">FOSSIL FUEL</div>
-      <div className="description">
+      <div className="cardColor">FOSSIL FUEL</div>
+      <div className="cardDescription">
         Read about fossil fuel emissions.
       </div>
     </div>
@@ -31,8 +31,8 @@ class HomeCards extends Component {
       <img src={Drylandscape} alt=""/>
     </div>
     <div class="content">
-      <div class="header" className="changeColor">TEMPERATURE</div>
-      <div className="description">
+      <div className="cardColor">TEMPERATURE</div>
+      <div className="cardDescription">
         Read about global temperatures.
       </div>
     </div>
@@ -45,22 +45,22 @@ class HomeCards extends Component {
       <img src={Meltingice} alt=""/>
     </div>
     <div class="content">
-      <div class="header" className="changeColor">GLACIER</div>
-      <div className="description">
+      <div className="cardColor">GLACIER</div>
+      <div className="cardDescription">
         Read about glacier sizes.
       </div>
     </div>
 </div>
 </NavLink>
 
-<NavLink to="/sealevel">
+<NavLink to="#/sealevel">
   <div class="ui card" style={{margin: "30px"}}>
     <div class="image">
       <img src={Flood} alt=""/>
     </div>
     <div class="content">
-      <div class="header" className="changeColor">SEA LEVELS</div>
-      <div className="description">
+      <div className="cardColor">SEA LEVELS</div>
+      <div className="cardDescription">
         Read about rising sea levels.
       </div>
     </div>

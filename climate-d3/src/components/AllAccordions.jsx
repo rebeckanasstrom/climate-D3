@@ -17,15 +17,16 @@ class FossilAccordion extends Component {
     
         return (
             <div class="ui basic segment">
-            <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+            <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"18rem"}}>
                 <div>
-                    <h3 style={{paddingBottom:"2rem"}}>So, what does this diagram mean, really?</h3>
+                    <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)", fontSize: "1.8em"}}>So, what does this diagram mean, really?</h3>
                 </div>
           <Accordion>
             <Accordion.Title
               active={activeIndex === 0}
               index={0}
               onClick={this.handleClick}
+              className="AccordionHeader"
             >
               <Icon name='dropdown' />
               What is million metric tonnes? 
@@ -88,7 +89,7 @@ class FossilAccordion extends Component {
               <div class="ui basic segment">
               <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                   <div>
-                      <h3 style={{paddingBottom:"2rem"}}>Why does it matter?</h3>
+                      <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>Why does it matter?</h3>
                   </div>
             <Accordion>
               <Accordion.Title
@@ -157,7 +158,7 @@ class FossilAccordion extends Component {
               <div class="ui basic segment">
               <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                   <div>
-                      <h3 style={{paddingBottom:"2rem"}}>How does one measure a glacier, really?</h3>
+                      <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>How does one measure a glacier, really?</h3>
                   </div>
             <Accordion>
               <Accordion.Title
@@ -226,7 +227,7 @@ class FossilAccordion extends Component {
               <div class="ui basic segment">
               <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                   <div>
-                      <h3 style={{paddingBottom:"2rem"}}>Measuring sea levels - how?</h3>
+                      <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>Measuring sea levels - how?</h3>
                   </div>
             <Accordion>
               <Accordion.Title

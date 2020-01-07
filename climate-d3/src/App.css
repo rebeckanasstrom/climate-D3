@@ -1,22 +1,24 @@
 div.ui.secondary.menu {
-  background-color: #f7eae3;
+  background-color:rgba(255, 255, 255, 1);
   margin: 0;
   font-family: 'Century Gothic', sans-serif;
   height: 50px;
+  border-bottom: 1px solid;
+  border-color: #E94D95;
 }
 
 div.ui.secondary.menu a {
-  color: rgb(228, 94, 63);
+  color: #E94D95;
   text-transform: uppercase;
   font-weight: 700;
 }
 .ui.secondary.menu .active.item {
-  color: rgba(84, 178, 204, 1) !important; 
+  color: rgb(84, 178, 204) !important; 
   font-weight: 700;
 }
 
   .ui.secondary.menu a:hover {
-    color: rgba(84, 178, 204, 1) !important;
+    color: rgb(84, 178, 204) !important;
 }
 
 .menuLinks {
@@ -26,6 +28,11 @@ div.ui.secondary.menu a {
 .menuLogo {
   margin:auto;
   margin-right: 1000px; 
+}
+
+.menuLogo img {
+  width: 140px;
+  margin-top: 5px;
 }
 
 div.sticky {
@@ -45,16 +52,17 @@ p {
   font-size: 1.1rem;
 }
 
-.changeColor {
+.cardColor {
   color: rgb(228, 94, 63);
   font-weight: bold;
   font-size: 1.25em;
   margin: 0.8em;
   }
 
-.description {      
-  font-family: 'Alda ot cev', serif; 
-  margin-bottom: 2.5em;
+.cardDescription {      
+  font-family: 'Alda ot cev', serif !important; 
+  margin-bottom: 2.5em !important;
+  color: #111;
   }
 
   .HomeCardsBox, .HomeArticleBox {
@@ -68,26 +76,35 @@ p {
     justify-content: space-around;
   }
 
-  .StepsHeader {
-    color: rgb(228, 94, 63);
-    font-weight: bold;
-  }
-
  .HomeBackground {
    background-color: white;
  }
 
+ .homeText {
+  margin-left: 100px !important;
+}
+
  .FossilArticleBox {
   padding: 60px;
   justify-content: space-around;
- }
+}
+
+.FossilArticleBox h2 {
+  font-size: 1.6em;
+}
+
+.FossilArticleBox h3 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.5em;
+  color: #E94D95;
+}
 
  .fossilHeader {
   color: #E94D95;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   font-size: 2.5rem;
- }
+}
 
  .FossilDataBox {
    background-color: white;
@@ -100,13 +117,17 @@ p {
   color: #E94D95;
   padding-top: 30px;
   padding-bottom: 10px;
+  margin-left: 230px;
  }
 
 .tipsPic {
-height: 70px;
-width: 70px;
-margin: auto;
-margin-top: 45px;
+width: 110px;
+margin-left: 50px;
+margin-top: 80px;
+}
+
+.ui.segment {
+  margin-bottom: 0rem !important;
 }
 
 .AccordionBox {
@@ -114,10 +135,33 @@ margin-top: 45px;
   justify-content: space-around;
  }
 
- .AccordionBox h3 {
-   color: #E94D95;
+ .AccordionBox p {
+  font-size: 1.2em;
+  font-family: 'Alda ot cev', 'Times New Roman', serif;
  }
 
 .footerStyle {
-  background-color: rgb(228, 94, 63);
+  background-color: #ffffff;
+  border-top: 1px solid;
+  border-color: #E94D95;
+  color: #E94D95;
+}
+
+.ui.accordion .title {
+  font-size: 1.4em !important;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.ui.grid p {
+  font-size: 1.2em;
+}
+
+.StepsBox {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.StepsHeader {
+  color: rgb(228, 94, 63);
+  font-weight: bold;
 }

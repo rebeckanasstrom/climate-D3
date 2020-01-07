@@ -2,48 +2,47 @@ import React, { Component } from 'react';
 import Factory from '../factory.jpg';
 import Drylandscape from '../drylandscape.jpg';
 import Flood from '../flood.jpg';
+import Sea from '../sealevels.png'
 import Meltingice from '../meltingice.jpg';
 
 class FossilArticle extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+            <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 className="fossilHeader"> Fossil Fuels - the dirty facts </h1>
+                        <h1 className="fossilHeader"> The dirty facts about fossil fuels </h1>
                     </div>
                     <div>
-                        <h2 style={{fontSize:"1.5rem"}}> Everyone’s heard it by now: fossil fuels are one of the main causes of climate change. But what exactly are they, and how are they messing up 
+                        <h2 style={{fontSize:"1.5rem", color: "#313030"}}> Everyone's heard it by now: fossil fuels are one of the main causes of climate change. But what exactly are they, and how are they messing up 
                             the future of our planet? </h2>
                     </div>
                     <div>
                         <img class="ui fluid image" src={Factory}  alt="Smoke rises from factories in the distant." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
-                    <div class="ui padded three column grid">
+                    <div style={{width: "90%"}} class="ui padded one column grid">
                         <div class="column"> 
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>Effective, but not sustainable</h3>
+                            <h3 style={{textAlign:"left", color: "#E94D95", marginBottom: "8px"}}>Effective, but not sustainable</h3>
                             <p style={{textAlign:"left"}}>For over a hundred years, burning fossil fuels has been the main energy source 
                             for most of our every-day activities. They fuel cars, light up our homes and keep us warm. It’s estimated that 
                             fossil fuels supply more than 80% of the world’s total energy. The efficiency/effectiveness of fossil fuels, however, 
                             doesn’t come without a price. </p></div>
-                        <div class="column">
-                            <h3 style={{textAlign:"left", color: "#E94D95"}}>So what on earth are fossil fuels?</h3>
+                        
+                            
                             <p style={{textAlign:"left"}}>Fossil fuels are basically remains from a bunch of dead plants and animals, buried deep 
                             underneath the earth’s crust. The three main fossil fuels include coal, petroleum and natural gas. When these are burned, 
                             they release greenhouse gases. In turn, these greenhouse gases trap heat in our atmosphere, making them the main contributors 
                             to global warming and climate change. </p>
-                        </div>
-                        <div class="column">
-                        <h3 style={{textAlign:"left", color: "#E94D95"}}>Is it too late?</h3>
+                        
+                        
+                        
                              <p style={{textAlign:"left"}}>Today, most people are aware of fossil fuels and their negative impacts on our planet. 
                              There have even been global efforts to address them, such as the 2015 Paris Climate Agreement. Despite this, carbon 
                              dioxide emissions from fossil fuels continue to rise. Don’t worry, though! There is still time. Just scroll down to 
-                             find a few easy tips on how you can lower the amount of carbon dioxide you emit, and help save the planet.
-</p>
+                             find a few easy tips on how you can lower the amount of carbon dioxide you emit, and help save the planet.</p>
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }
@@ -51,7 +50,7 @@ class FossilArticle extends Component {
 class TempArticle extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+            <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
                         <h1 className="fossilHeader"> Global warming and it's devastating effect on our nature</h1>
@@ -102,13 +101,14 @@ class TempArticle extends Component {
 class GlacierArticle extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+            <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
                         <h1 className="fossilHeader">The earths glaciers are melting away bit by bit</h1>
                     </div>
                     <div>
-                    <h2 style={{fontSize:"1.5rem"}}>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. </h2>
+                    <h2 style={{fontSize:"1.5rem"}}>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. 
+                    Our own actions could possibly be the cause of massive destruction and make several countries uninhabitable. </h2>
                     </div>
                     <div>
                         <img class="ui fluid image" src={Meltingice}  alt="Bits of ice floating in the ocean." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
@@ -147,10 +147,10 @@ class GlacierArticle extends Component {
 class SeaArticle extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+            <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 className="fossilHeader">Sea levels are rising, and rising, and rising</h1>
+                        <h1 style={{color: "#E94D95"}}className="fossilHeader">Sea levels are rising, and rising, and rising</h1>
                     </div>
                     <div>
                     <h2 style={{fontSize:"1.5rem"}}>Global average sea level has risen about 21-24 cm since 1880. Almost a third of that has happened in the last two and a half decades. 

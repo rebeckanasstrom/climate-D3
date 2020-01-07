@@ -6,6 +6,9 @@ import { GlacierTips } from './AllTips';
 import { Footer } from './Footer';
 
 export default class Glacier extends Component {
+  componentDidMount(){
+    window.scrollTo(0,0);
+    }  
   render(){
   return (
     <div>

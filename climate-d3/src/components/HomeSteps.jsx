@@ -1,31 +1,49 @@
 import React, { Component } from 'react';
+import Read from "../read.png";
+import Data from "../data-step.png";
+import Inspire from "../inspire.png";
+import Save from "../save.png";
 
 class HomeSteps extends Component {
+
     render() {
         return(
             <div class="ui basic segment">
             <h2 className="StepsHeader" style={{margin: "20px"}}>And now, you might ask, how can Cosmo help you save the planet?</h2>
-               <div className="HomeStepsBox"> 
-                    <div class="ui equal width grid">
-                        <div class="column" style={{margin: "40px"}}>
-                            <h3 className="StepsHeader">STEP ONE</h3>
-                            <p>Read, read, read! <br></br>Read more. Get smart.</p>
-                        </div>
-                        <div class="column" style={{margin: "40px"}}>
-                            <h3 className="StepsHeader">STEP TWO</h3>
-                            <p>Data, baby! <br></br>Look at the numbers.</p>
-                        </div>
-                        <div class="column" style={{margin: "40px"}}>
-                            <h3 className="StepsHeader">STEP THREE</h3>
-                            <p>Ready, action! <br></br>Get inspired. Do good.</p>
-                        </div>
-                        <div class="column" style={{margin: "40px"}}>
-                            <h3 className="StepsHeader">STEP FOUR</h3>
-                            <p>Save the planet! <br></br>No. Seriously. Do it.</p>
-                        </div>
-                    </div>
+                <div className="StepsBox">
+                                
+            <div class="ui container four column grid">
+                <div class="column">
+                    <img src={Read} style={{width:"250px"}} />
+                    
+                    <h3 className="StepsHeader">STEP ONE</h3>
+                    <p>Read, read, read! <br></br>Read more. Get smart.</p>
+
+                </div>
+                <div class="column" >
+                    <img src={Data} style={{width:"250px"}} />
+                    
+                    <h3 className="StepsHeader">STEP TWO</h3>
+                    <p>Data, baby! <br></br>Look at the numbers.</p>
+
+                </div>
+                <div class="column" >
+                    <img src={Inspire} style={{width:"250px"}} />
+                    
+                    <h3 className="StepsHeader">STEP THREE</h3>
+                    <p>Ready, action! <br></br>Get inspired. Do good.</p>
+
+                </div>
+                <div class="column" >
+                    <img src={Save} style={{width:"250px"}} />
+                    
+                    <h3 className="StepsHeader">STEP FOUR</h3>
+                    <p>Save the planet! <br></br>No. Seriously. Do it.</p>
+
                 </div>
             </div>
+          </div>
+         </div>
         )
     }
 }

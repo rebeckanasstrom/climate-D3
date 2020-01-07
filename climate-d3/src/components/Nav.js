@@ -35,7 +35,7 @@ export default Nav;*/
 
 
 export default class MenuExampleSecondary extends Component {
-  state = { activeItem: 'home' }
+  state = { activeItem: '' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -46,13 +46,10 @@ export default class MenuExampleSecondary extends Component {
       <div class="sticky">
         
       <Menu secondary>
-         <NavLink className="menuLogo" to="/">
-        <Menu.Item
-            name='logo'
-            active={activeItem === 'logo'}
-            onClick={this.handleItemClick}
-          />
-          </NavLink>
+      <NavLink className="menuLogo" to="/">
+        <img src={Logo} alt="logo" className="logo-style"/>
+ 
+           </NavLink>
         <Menu.Menu position='right'>
          <NavLink className="menuLinks" to="/">
         <Menu.Item
@@ -63,7 +60,7 @@ export default class MenuExampleSecondary extends Component {
          </NavLink>
          <NavLink className="menuLinks" to="/fossilfuel">
         <Menu.Item
-          name='fossil fuel'
+          name='fossilfuel'
           active={activeItem === 'fossilfuel'}
           onClick={this.handleItemClick}
         />
@@ -84,7 +81,7 @@ export default class MenuExampleSecondary extends Component {
          </NavLink>
          <NavLink className="menuLinks" to="/sealevel">
         <Menu.Item
-          name='sea level'
+          name='sealevel'
           active={activeItem === 'sealevel'}
           onClick={this.handleItemClick}
         />

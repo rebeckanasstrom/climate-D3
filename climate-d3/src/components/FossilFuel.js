@@ -7,7 +7,10 @@ import { Footer } from './Footer';
 
 
 export default class FossilFuel extends Component {
-  render(){ 
+  componentDidMount(){
+    window.scrollTo(0,0);
+    }  
+  render(){
     return (
     <div>
       <FossilArticle />

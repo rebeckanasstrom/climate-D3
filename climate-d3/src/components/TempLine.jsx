@@ -21,7 +21,7 @@ class TempLine extends Component {
             <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
           </LineChart>
       </div>
-      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in an out in the diagram. Click and drag the sides to zoom and click and drag to pan.</h4>
+      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. Click and drag the sides to zoom and click and drag to pan.</h4>
       </div>
     );
   }
