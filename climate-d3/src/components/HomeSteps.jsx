@@ -14,28 +14,28 @@ class HomeSteps extends Component {
                                 
             <div class="ui container four column grid">
                 <div class="column">
-                    <img src={Read} style={{width:"250px"}} />
+                    <img src={Read} alt="Hand holding books." style={{width:"250px"}} />
                     
                     <h3 className="StepsHeader">STEP ONE</h3>
                     <p>Read, read, read! <br></br>Read more. Get smart.</p>
 
                 </div>
                 <div class="column" >
-                    <img src={Data} style={{width:"250px"}} />
+                    <img src={Data} alt="Hand holding phone with diagram on screen." style={{width:"250px"}} />
                     
                     <h3 className="StepsHeader">STEP TWO</h3>
                     <p>Data, baby! <br></br>Look at the numbers.</p>
 
                 </div>
                 <div class="column" >
-                    <img src={Inspire} style={{width:"250px"}} />
+                    <img src={Inspire} alt="Hand holding light bulb." style={{width:"250px"}} />
                     
                     <h3 className="StepsHeader">STEP THREE</h3>
                     <p>Ready, action! <br></br>Get inspired. Do good.</p>
 
                 </div>
                 <div class="column" >
-                    <img src={Save} style={{width:"250px"}} />
+                    <img src={Save} alt="Two hands stretching towards planet earth." style={{width:"250px"}} />
                     
                     <h3 className="StepsHeader">STEP FOUR</h3>
                     <p>Save the planet! <br></br>No. Seriously. Do it.</p>

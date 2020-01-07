@@ -60,8 +60,8 @@ export default class MenuExampleSecondary extends Component {
          </NavLink>
          <NavLink className="menuLinks" to="/fossilfuel">
         <Menu.Item
-          name='fossilfuel'
-          active={activeItem === 'fossilfuel'}
+          name='fossilFuel'
+          active={activeItem === 'fossilFuel'}
           onClick={this.handleItemClick}
         />
          </NavLink>
@@ -81,9 +81,10 @@ export default class MenuExampleSecondary extends Component {
          </NavLink>
          <NavLink className="menuLinks" to="/sealevel">
         <Menu.Item
-          name='sealevel'
-          active={activeItem === 'sealevel'}
+          name='seaLevel'
+          active={activeItem === 'seaLevel'}
           onClick={this.handleItemClick}
+          style={{marginRight:"50px"}}
         />
         </NavLink>
         </Menu.Menu>

@@ -35,7 +35,7 @@ class GlacierData extends Component {
     render(){
         return(
             <div>
-                <h1 style={{color: "rgb(84, 178, 204)", marginTop: "50px"}}>A representation of the average thickness of glaciers over time</h1>
+                <h1 style={{color: "rgb(84, 178, 204)", marginTop: "50px"}}>The glaciers are getting unhealthy and are loosing thickness by the day!</h1>
                 <br />
                 <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>So, glacier mass balance is the quantitative expression of a glacier’s changes in volume over time. The cumulative <br/>mass balance 

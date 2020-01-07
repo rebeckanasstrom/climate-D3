@@ -7,7 +7,7 @@ class SeaLine extends Component {
       <div class="ui basic segment">
         <div className="FossilDataBox"> 
             <LineChart
-            width={1100}
+            width={1200}
             height={700}
             data={this.props.chartData}
             margin={{
@@ -18,10 +18,10 @@ class SeaLine extends Component {
             <YAxis />
             <Tooltip />
             <Line type="monotone" dataKey="Sea Level (millimeters)" stroke="darkblue" fill="darkblue" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
-            <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
+            <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
           </LineChart>
       </div>
-      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. Click and drag the sides to zoom and click and drag to pan.</h4>
+      <p className="SliderText">Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. <br/>Click and drag the sides to zoom and click and drag to pan.</p>
       </div>
     );
   }

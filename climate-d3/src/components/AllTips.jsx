@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Tools from '../tools.png';
 import Plastic from "../plastic.png";
 import Subway from "../subway.png";
+import Subway2 from '../subway2.png';
 import Sprout from "../sprout.png";
 import Dress from "../dress.png";
 import Vote from "../vote.png";
@@ -11,34 +12,37 @@ import periodCup from "../periodcup.png";
 import soyMilk from "../soy-milk.png";
 import Friends from "../friends.png";
 import Cosmetics from "../cosmetics.png";
+import Read from '../read.png';
+
 class FossilTips extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "#fdf5f9"}}>
-                <div className="FossilArticleBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+                <div className="TipsBox" style={{textAlign:"left", width:"70%", marginLeft:"12rem"}}>
                     <div>
                         <h1 className="tipHeader"> So, what can you do to save the planet?</h1>
                     </div>
                     <div>
-                        <h2 style={{marginBottom:"3em", marginLeft: "230px"}}>Don't worry - we got you! We asked our community what they do to live a more sustainable everyday life</h2>
+                        <h2 style={{marginBottom:"3em"}}>Don't worry - we got you! We asked our community what they do to live a more sustainable everyday life</h2>
                     </div>
                     <div class="ui grid">
-                        <div class="four wide column">
-                            <img class="ui small circular image" className="tipsPic" alt="Icon of a plastic recyling bin." src={Plastic} />
-                        </div>
+                     
                         <div class="twelve wide column">
                             <h3>Unfriend the plastic in your life!</h3>
                             <p>Start with getting a pretty water bottle and make it a habit of filling it up before you leave in the morning. Invest in a set of those nifty (and cute!) reusable cutlery sets for lunches on the go and bring a reusable straw. While you’re at it, get some of those nice glass containers for storing your homemade lunch in. Good for reducing food waste and saving money. Speaking about food, keep the plastic out of your life by going with reusable bags for fruit and veggies and bring a tote bag for carrying your groceries! </p>
                             <p style={{marginBottom:"2em", fontFamily: "Century Gothic"}}><strong>Last summer Lush came out with an all plastic free shower collection, how amazing is that? Check out the glorious collection here:</strong> <a style={{color: "rgb(84, 178, 204)"}} href="https://www.cosmopolitan.com/uk/beauty-hair/g28516354/lush-plastic-free-shower-collection/" target="_blank"><strong>Lush's Plastic Free Collection</strong></a></p>
                         </div>
                         <div class="four wide column">
-                            <img class="ui small circular image" className="tipsPic" alt="Icon of a subway train." src={Subway}/>
-
+                            <img className="tipsPic" alt="Icon of a plastic recyling bin." src={Read} />
                         </div>
+                        
                         <div class="twelve wide column">
                             <h3>Embrace the commute!</h3>
                             <p>Say no thanks to cars and start embracing the public transport system. Getting from point A to B is often more time efficient and saves you money in the long run - especially if you’re living in the city. It’s also a ton more energy efficient and kind to the planet, not to mention the fact you don’t have to circle the city center fifty times before finding parking. Still need a car? Try to share rides with coworkers or family and plan trips around going back and forth as few times as possible. And hey, after a crazy night out - is that cab ride home really worth it? If it is, try to at least share it with a friend or friends. Travelling together is more fun anyways!</p>
                             <p style={{marginBottom:"2em", fontFamily: "Century Gothic"}}><strong>Want to know more on how exactly you’re helping our planet by going by bus or train? Read this article from the U.S. Department of transportation:</strong> <a style={{color: "rgb(84, 178, 204)"}} href="https://www.transit.dot.gov/regulations-and-guidance/environmental-programs/transit-environmental-sustainability/transit-role" target="_blank"><strong>Federal Transit Administration</strong></a></p>
+                        </div>
+                        <div class="four wide column">
+                            <img className="tipsPic" alt="Icon of a subway train." src={Subway2}/>
                         </div>
                         <div class="four wide column">
                             <img class="ui small circular image" className="tipsPic" alt="Icon of a wrench and a screwdriver." src={Tools}/>
@@ -58,8 +62,8 @@ class FossilTips extends Component {
 class TempTips extends Component {
     render() {
         return (
-            <div class="ui basic segment" style={{backgroundColor: "#fffdfd"}}>
-                <div className="FossilArticleBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+            <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
+                <div className="TipsBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                     <div>
                         <h1 className="tipHeader"> So, what can you do to save the planet?</h1>
                     </div>
@@ -103,7 +107,7 @@ class GlacierTips extends Component {
     render() {
         return (
             <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
-                <div className="FossilArticleBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+                <div className="TipsBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                     <div>
                         <h1 className="tipHeader"> So, what can you do to save the planet?</h1>
                     </div>
@@ -146,7 +150,7 @@ class SeaTips extends Component {
     render() {
         return (
             <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.15)"}}>
-                <div className="FossilArticleBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+                <div className="TipsBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
                     <div>
                         <h1 className="tipHeader"> So, what can you do to save the planet?</h1>
                     </div>

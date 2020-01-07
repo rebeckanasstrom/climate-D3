@@ -6,7 +6,7 @@ class FossilLine extends Component {
     return (
       <div class="ui basic segment">
       <div className="FossilDataBox">
-      <ComposedChart width={1300} height={700} data={this.props.chartData}
+      <ComposedChart width={1200} height={700} data={this.props.chartData}
             margin={{top: 50, right: 30, left: 30, bottom: 5}}>
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="Year"/>
@@ -18,10 +18,10 @@ class FossilLine extends Component {
           <Area type="monotone" dataKey="Liquid Fuel" stackId="1" stroke="#C06C84" fill="#C06C84" dot={false} legendType="circle"/> 
           <Area type="monotone" dataKey="Cement" stackId="1" stroke="#6C5B7B" fill="#6C5B7B" dot={false} legendType="circle"/>
           <Area type="monotone" dataKey="Gas Flaring" stackId="1" stroke="#F67280" fill="#F67280" dot={false} legendType="circle"/>
-          <Brush dataKey="Year"/>
+          <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
       </ComposedChart>
       </div>
-      <h4 style={{marginTop: "0", paddingTop: "0", fontSize: "1.1em", marginLeft: "60px"}}>Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. Click and drag the sides to zoom and click and drag to pan.</h4> 
+      <p className="SliderText">Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. <br/> Click and drag the sides to zoom and click and drag to pan.</p> 
       </div>
     );
   }

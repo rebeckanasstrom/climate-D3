@@ -27,7 +27,7 @@ div.ui.secondary.menu a {
 
 .menuLogo {
   margin:auto;
-  margin-right: 1000px; 
+  margin-left: 240px; 
 }
 
 .menuLogo img {
@@ -113,17 +113,23 @@ p {
    justify-content: space-around;
  }
 
+ .SliderText {
+   font-family: 'Century Gothic', sans-serif;;
+   font-weight: bold;
+   font-size: 1em;
+   padding-bottom: 1.5em;
+ }
+
 .tipHeader {
   color: #E94D95;
   padding-top: 30px;
   padding-bottom: 10px;
-  margin-left: 230px;
  }
 
 .tipsPic {
-width: 110px;
+width: 200px;
 margin-left: 50px;
-margin-top: 80px;
+margin-top: 20px;
 }
 
 .ui.segment {
@@ -133,6 +139,11 @@ margin-top: 80px;
 .AccordionBox {
   padding: 0px 60px 60px 60px;
   justify-content: space-around;
+  margin-left: 20%;
+ }
+
+ .AccordionBox h3 {
+   font-size: 1.5em;
  }
 
  .AccordionBox p {
@@ -148,7 +159,7 @@ margin-top: 80px;
 }
 
 .ui.accordion .title {
-  font-size: 1.4em !important;
+  font-size: 1.2em !important;
   font-family: 'Century Gothic', sans-serif;
 }
 
@@ -164,4 +175,19 @@ margin-top: 80px;
 .StepsHeader {
   color: rgb(228, 94, 63);
   font-weight: bold;
+}
+
+.TipsBox {
+  padding: 60px;
+  justify-content: space-around;
+}
+
+.TipsBox h2 {
+  font-size: 1.6em;
+}
+
+.TipsBox h3 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.5em;
+  color: #E94D95;
 }

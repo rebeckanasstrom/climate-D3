@@ -40,7 +40,7 @@ class FossilData extends Component {
     render(){
         return(
             <div>
-                <h1 style={{color: "#54B2CC", marginTop: "50px"}}>Line chart for fossil fuel emissions separated into categories</h1>
+                <h1 style={{color: "#54B2CC", marginTop: "50px"}}>Don't be fooled by the beautiful colors, these fossil fuels are dirty!</h1>
                 <br />
                 <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p><strong>Gas Fuel:</strong> fuels that are gas in their normal condition, like methane, propane and carbon monoxide.</p>

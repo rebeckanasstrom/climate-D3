@@ -6,17 +6,17 @@ class GlacierLine extends Component {
     return (
       <div class="ui basic segment">
       <div className="FossilDataBox">
-      <AreaChart width={1100} height={700} data={this.props.chartData}
+      <AreaChart width={1200} height={700} data={this.props.chartData}
             margin={{top: 50, right: 30, left: 30, bottom: 5}}>
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="Year"/>
         <YAxis/>
         <Tooltip/>
           <Area type="monotone" dataKey="Glacier Mass Balance (average value in meters)" stackId="1" stroke="blue" fill="lightblue" legendType="circle"/>
-          <Brush dataKey="Year" stroke="grey" slide="red" fill="rgba(250, 211, 202, 0.2)"/>
+          <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
       </AreaChart>
       </div>
-      <h4 style={{marginTop: "0", paddingTop: "0"}}>Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. Click and drag the sides to zoom and click and drag to pan.</h4>
+      <p className="SliderText">Use the slider above to zoom in and out in the diagram and compare data by narrowing down the years shown. <br/>Click and drag the sides to zoom and click and drag to pan.</p>
       </div>
     );
   }

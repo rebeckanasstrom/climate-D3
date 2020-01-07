@@ -17,9 +17,9 @@ class FossilAccordion extends Component {
     
         return (
             <div class="ui basic segment">
-            <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"18rem"}}>
+            <div className="AccordionBox" style={{textAlign:"left", width:"60%"}}>
                 <div>
-                    <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)", fontSize: "1.8em"}}>So, what does this diagram mean, really?</h3>
+                    <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>So, what does this diagram mean, really?</h3>
                 </div>
           <Accordion>
             <Accordion.Title
@@ -87,7 +87,7 @@ class FossilAccordion extends Component {
       
           return (
               <div class="ui basic segment">
-              <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+              <div className="AccordionBox" style={{textAlign:"left", width:"60%"}}>
                   <div>
                       <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>Why does it matter?</h3>
                   </div>
@@ -156,7 +156,7 @@ class FossilAccordion extends Component {
       
           return (
               <div class="ui basic segment">
-              <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+              <div className="AccordionBox" style={{textAlign:"left", width:"60%"}}>
                   <div>
                       <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>How does one measure a glacier, really?</h3>
                   </div>
@@ -225,7 +225,7 @@ class FossilAccordion extends Component {
       
           return (
               <div class="ui basic segment">
-              <div className="AccordionBox" style={{textAlign:"left", width:"60%", marginLeft:"29rem"}}>
+              <div className="AccordionBox" style={{textAlign:"left", width:"60%"}}>
                   <div>
                       <h3 style={{paddingBottom:"2rem", color: "rgb(84, 178, 204)"}}>Measuring sea levels - how?</h3>
                   </div>
