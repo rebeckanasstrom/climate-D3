@@ -72,17 +72,17 @@ export default class MenuExampleSecondary extends Component {
           onClick={this.handleItemClick}
         />
          </NavLink>
+         <NavLink className="menuLinks" to="/sealevel">
+        <Menu.Item
+          name='seaLevel'
+          active={activeItem === 'sealevel'}
+          onClick={this.handleItemClick}
+        />
+         </NavLink>
          <NavLink className="menuLinks" to="/glacier">
         <Menu.Item
           name='glacier'
           active={activeItem === 'glacier'}
-          onClick={this.handleItemClick}
-        />
-         </NavLink>
-         <NavLink className="menuLinks" to="/sealevel">
-        <Menu.Item
-          name='seaLevel'
-          active={activeItem === 'seaLevel'}
           onClick={this.handleItemClick}
           style={{marginRight:"50px"}}
         />

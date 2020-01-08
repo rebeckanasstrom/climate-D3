@@ -35,7 +35,7 @@ class SeaData extends Component {
     render(){
         return(
             <div>
-                <h1 style={{color: "rgb(84, 178, 204)", marginTop: "50px"}}>Put on your swimmies - sea levels are rising so soon you might have to swim to work!</h1>
+                <h1 style={{color: "#38A0BC", marginTop: "50px"}}>Put on your swimmies - sea levels are rising so soon you might have to swim to work!</h1>
                 <br />
                 <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>
                     <p>When talking about sea level measurements, we talk about data called “Global Mean Sea Level” or GMSL for short. What the numbers represent <br/>is the changes in sea levels for the world’s oceans since 1880, based on both long time tide measurements as well as recent satellite data. </p>

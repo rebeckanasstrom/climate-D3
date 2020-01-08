@@ -13,12 +13,12 @@ div.ui.secondary.menu a {
   font-weight: 700;
 }
 .ui.secondary.menu .active.item {
-  color: rgb(84, 178, 204) !important; 
+  color: #38A0BC!important; 
   font-weight: 700;
 }
 
   .ui.secondary.menu a:hover {
-    color: rgb(84, 178, 204) !important;
+    color: #38A0BC !important;
 }
 
 .menuLinks {
@@ -27,7 +27,7 @@ div.ui.secondary.menu a {
 
 .menuLogo {
   margin:auto;
-  margin-left: 240px; 
+  margin-left: 208px; 
 }
 
 .menuLogo img {
@@ -65,11 +65,12 @@ p {
   color: #111;
   }
 
-  .HomeCardsBox, .HomeArticleBox {
+.HomeCardsBox, .HomeArticleBox {
     padding: 60px;
     display: inline-flex;
     justify-content: space-around;
   }
+
 
   .HomeStepsBox {
     display: inline-flex;
@@ -97,7 +98,8 @@ p {
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.5em;
   color: #E94D95;
-  padding-top: 15px;
+  padding-top: 35px;
+  
 }
 
 .FossilArticleBox p {
@@ -169,6 +171,11 @@ padding: 20px;
 
 .ui.grid p {
   font-size: 1.2em;
+}
+
+.ui.grid p a:hover {
+  color: #E94D95 !important;
+  text-decoration: underline !important;
 }
 
 .StepsBox {

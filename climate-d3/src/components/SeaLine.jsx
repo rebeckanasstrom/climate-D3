@@ -17,7 +17,7 @@ class SeaLine extends Component {
             <XAxis dataKey="Year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="Sea Level (millimeters)" stroke="#9C245C" fill="darkblue" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
+            <Line type="monotone" dataKey="Sea Level (millimeters)" stroke="#38A0BC" fill="darkblue" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
             <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
           </LineChart>
       </div>
