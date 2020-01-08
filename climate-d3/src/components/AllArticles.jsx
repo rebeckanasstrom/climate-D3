@@ -1,10 +1,11 @@
 import React, { Component } from 'react'; 
 import Factory from '../factory.jpg';
 import Drylandscape from '../drylandscape.jpg';
-import FossilFuel from '../fossilfuel.jpg';
+import FossilFuel from '../fossilfuels1.jpg';
 import Temp from '../temp.jpg';
 import Glaciers from '../glaciers.jpg'
 import SeaLevels from '../sealevels.jpg';
+
 
 class FossilArticle extends Component {
     render() {

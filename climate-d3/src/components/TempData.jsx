@@ -36,7 +36,7 @@ class TempData extends Component {
     render(){
         return(
             <div>
-                <h1 style={{color: "rgb(84, 178, 204)", marginTop: "50px", marginBottom: "30px"}}>HOT, HOT, HOT! Temperatures are getting closer to the +2 degree mark!</h1>
+                <h1 style={{color: "#38A0BC", marginTop: "50px", marginBottom: "30px"}}>HOT, HOT, HOT! Temperatures are getting closer to the +2 degree mark!</h1>
                 <br />
                 
                 <Popup trigger={<Button icon='question circle' label='How do I read the diagram?'></Button>} flowing position="bottom center" on='click'>

@@ -17,7 +17,7 @@ class TempLine extends Component {
             <XAxis dataKey="Year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="#9C245C" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
+            <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="rgb(228, 94, 63)" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
             <Brush dataKey="Year"width={1050} height={25} travellerWidth={8} x={105} y={670}/>
           </LineChart>
       </div>

@@ -17,7 +17,7 @@ class FossilLine extends Component {
           <Area type="monotone" dataKey="Solid Fuel" stackId="1" stroke="#2AA1B5" fill="#2AA1B5" dot={false} legendType="circle"/>
           <Area type="monotone" dataKey="Liquid Fuel" stackId="1" stroke="#9C245C" fill="#9C245C" dot={false} legendType="circle"/> 
           <Area type="monotone" dataKey="Cement" stackId="1" stroke="#ECDD65" fill="#ECDD65" dot={false} legendType="circle"/>
-          <Area type="monotone" dataKey="Gas Flaring" stackId="1" stroke="#2C8C9C" fill="#2C8C9C" dot={false} legendType="circle"/>
+          <Area type="monotone" dataKey="Gas Flaring" stackId="1" stroke="#FFA08F" fill="#FFA08F" dot={false} legendType="circle"/>
           <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
       </ComposedChart>
       </div>
