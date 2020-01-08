@@ -1,8 +1,10 @@
 import React, { Component } from 'react'; 
 import Factory from '../factory.jpg';
 import Drylandscape from '../drylandscape.jpg';
-import Flood from '../flood.jpg';
-import Meltingice from '../meltingice.jpg';
+import FossilFuel from '../fossilfuel.jpg';
+import Temp from '../temp.jpg';
+import Glaciers from '../glaciers.jpg'
+import SeaLevels from '../sealevels.jpg';
 
 class FossilArticle extends Component {
     render() {
@@ -10,16 +12,14 @@ class FossilArticle extends Component {
             <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 className="fossilHeader"> The dirty facts about fossil fuels </h1>
+                        <img class="ui fluid image" src={FossilFuel}  alt="Smoke rises from factories in the distant." style={{width:"1500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div>
-                        <h2 style={{fontSize:"1.5rem", color: "#313030"}}> Everyone's heard it by now: fossil fuels are one of the main causes of climate change. But what exactly are they, and how are they messing up 
+                        <h2 style={{fontSize:"1.7rem", color: "#313030"}}> Everyone's heard it by now: fossil fuels are one of the main causes of climate change. But what exactly are they, and how are they messing up 
                             the future of our planet? </h2>
                     </div>
-                    <div>
-                        <img class="ui fluid image" src={Factory}  alt="Smoke rises from factories in the distant." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
-                    </div>
                     <div style={{width: "90%"}} class="ui padded one column grid">
+                    <div className="ColumnStyle">
                         <div class="column"> 
                             <h3 style={{textAlign:"left", color: "#E94D95", marginBottom: "8px"}}>Effective, but not sustainable</h3>
                             <p style={{textAlign:"left"}}>For over a hundred years, burning fossil fuels has been the main energy source 
@@ -40,6 +40,7 @@ class FossilArticle extends Component {
                              dioxide emissions from fossil fuels continue to rise. Don’t worry, though! There is still time. Just scroll down to 
                              find a few easy tips on how you can lower the amount of carbon dioxide you emit, and help save the planet.</p>
                         </div>
+                       </div> 
                     </div>
                 </div>
         )
@@ -52,17 +53,15 @@ class TempArticle extends Component {
             <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 className="fossilHeader"> Global warming and it's devastating effect on our nature</h1>
+                        <img class="ui fluid image" src={Temp}  alt="Dry landscape with a dried out pond." style={{width:"1500px", marginTop:"30px", marginBottom:"30px"}}/>
                     </div>
                     <div>
-                    <h2 style={{fontSize:"1.5rem"}}>Temperatures are rising every year and the global temperature has increased by 
+                    <h2 style={{fontSize:"1.7rem"}}>Temperatures are rising every year and the global temperature has increased by 
                             one degree in the last century. It might not sound so much but natural disasters, 
                             heat waves, intense droughts and wildfires are all consequences of that one degree.</h2>
                     </div>
-                    <div>
-                        <img class="ui fluid image" src={Drylandscape}  alt="Dry landscape with a dried out pond." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
-                    </div>
                     <div class="ui padded one column grid">
+                    <div className="ColumnStyle">
                         <div class="column">
                             <h3 style={{textAlign:"left", color: "#E94D95", marginBottom: "8px"}}>Why is it getting warmer?</h3>
                             <p style={{textAlign:"left"}}>We've all heard that the planet is getting warmer and maybe even 
@@ -88,7 +87,7 @@ class TempArticle extends Component {
                         natural disasters will make certain places uninhabitable. We all know that natural disasters, even today, 
                         force people to leave their homes. But with a global temperature that increases by two degrees, more people, 
                         animals and places will be affected. Let’s make sure we stop before we reach two degrees! </p>
-                             
+                      </div>       
                     </div>
                     </div>
                 </div>
@@ -102,17 +101,15 @@ class GlacierArticle extends Component {
         return (
             <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
-                    <div>
-                        <h1 className="fossilHeader">The earths glaciers are melting away bit by bit</h1>
+                    <div className="ArticlePic">
+                        <img class="ui fluid image" src={Glaciers}  alt="Bits of ice floating in the ocean." style={{width:"1500px", marginBottom:"30px"}}/>
                     </div>
                     <div>
-                    <h2 style={{fontSize:"1.5rem"}}>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. 
+                    <h2 style={{fontSize:"1.7rem"}}>Since the early 1900s, many of the world’s glaciers have been melting, rapidly. The root of this phenomenon is our human activities. 
                     Our own actions could possibly be the cause of massive destruction and make several countries uninhabitable. </h2>
                     </div>
-                    <div>
-                        <img class="ui fluid image" src={Meltingice}  alt="Bits of ice floating in the ocean." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
-                    </div>
                     <div class="ui padded one column grid">
+                        <div className="ColumnStyle">
                         <div class="column">
                             <h3 style={{textAlign:"left", color: "#E94D95", marginBottom: "8px"}}>Why are the glaciers melting?</h3>
                             <p style={{textAlign:"left"}}>Since the industrial revolution, where society went from hand production methods to mass production through 
@@ -131,8 +128,8 @@ class GlacierArticle extends Component {
                             platform where they feed and rest. As the sea ice melts earlier, it forces the Walruses ashore and it could be up to 35,000 walruses in one 
                             place, this is especially deadly for walrus calves, since they can be crushed in stampedes.</p>
                         </div>
-                    </div>
-                    
+                     </div>
+                   </div>
                 </div>
             </div>
         )
@@ -145,16 +142,14 @@ class SeaArticle extends Component {
             <div class="ui basic segment" style={{backgroundColor: "#fef6fa"}}>
                 <div className="FossilArticleBox" style={{textAlign:"left", width:"80%", marginLeft:"12rem"}}>
                     <div>
-                        <h1 style={{color: "#E94D95"}}className="fossilHeader">Sea levels are rising, and rising, and rising</h1>
+                        <img class="ui fluid image" src={SeaLevels}  alt="Traffic sign halfway covered in water." style={{width:"1500px", marginBottom:"30px"}}/>
                     </div>
                     <div>
-                    <h2 style={{fontSize:"1.5rem"}}>Global average sea level has risen about 21-24 cm since 1880. Almost a third of that has happened in the last two and a half decades. 
-                            Ice loss from melting ice sheets and glaciers near the poles are one of the most significant contributions to global sea level rise</h2>
-                    </div>
-                    <div>
-                        <img class="ui fluid image" src={Flood}  alt="Traffic sign halfway covered in water." style={{height:"500px", marginTop:"30px", marginBottom:"30px"}}/>
+                    <h2 style={{fontSize:"1.7rem"}}>Global average sea level has risen about 21-24 cm since 1880. Almost a third of that has happened in the last two and a half decades. 
+                            Ice loss from melting ice sheets and glaciers near the poles are one of the most significant contributions to global sea level rise.</h2>
                     </div>
                     <div class="ui padded one column grid">
+                    <div className="ColumnStyle">
                         <div class="column">
                             <h3 style={{textAlign:"left", color: "#E94D95", marginBottom: "8px"}}>How are sea levels measured?</h3>
                             <p style={{textAlign:"left"}}>Unfortunately, you can't just put a long ruler into the ocean to measure the sea level, 
@@ -179,10 +174,10 @@ class SeaArticle extends Component {
                              climate change continues to affect the sea level. Islands in the Pacific Ocean are already suffering from the 
                              consequences and many islanders must live with a constant fear that their home could be swallowed up by the sea. 
                              Let's stop the sea level rise in time!</p>
+                         </div>
                         </div>
                     </div>
-                    
-                </div>
+                 </div>
             </div>
         )
     }

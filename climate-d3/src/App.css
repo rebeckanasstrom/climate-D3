@@ -85,7 +85,7 @@ p {
 }
 
  .FossilArticleBox {
-  padding: 60px;
+  padding: 30px;
   justify-content: space-around;
 }
 
@@ -97,18 +97,20 @@ p {
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.5em;
   color: #E94D95;
+  padding-top: 15px;
 }
 
- .fossilHeader {
-  color: #E94D95;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  font-size: 2.5rem;
+.FossilArticleBox p {
+  font-size: 1.3em !important;
+ }
+
+.ColumnStyle {
+  padding-left: 0px !important;
 }
 
  .FossilDataBox {
    background-color: white;
-   padding: 0px 60px 20px 60px;
+   padding: 0px 60px 0px 60px;
    display: inline-flex;
    justify-content: space-around;
  }
@@ -141,11 +143,11 @@ padding: 20px;
 .AccordionBox {
   padding: 0px 60px 60px 60px;
   justify-content: space-around;
-  margin-left: 20%;
+  margin-left: 10%;
  }
 
  .AccordionBox h3 {
-   font-size: 1.5em;
+   font-size: 2em;
  }
 
  .AccordionBox p {
@@ -161,7 +163,7 @@ padding: 20px;
 }
 
 .ui.accordion .title {
-  font-size: 1.2em !important;
+  font-size: 1.3em !important;
   font-family: 'Century Gothic', sans-serif;
 }
 
@@ -192,4 +194,14 @@ padding: 20px;
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.5em;
   color: #E94D95;
+}
+
+.ui.basic.label {
+  color: #E94D95 !important;
+  font-size: 1.2em !important; 
+}
+
+.ui.labeled.button>.button {
+  margin-left: 20px !important;
+  
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import GlacierLine from './GlacierLine';
 import { Button, Popup } from 'semantic-ui-react';
-import {GlacierAccordion} from './AllAccordions';
+{/*import {GlacierAccordion} from './AllAccordions';*/}
 
 class GlacierData extends Component {
     state={
@@ -45,9 +45,15 @@ class GlacierData extends Component {
                         will be in negative mass balance and so will recede. Glaciers are sensitive ‘barometers’ <br/>to our changing world, making them a good tool in recording climate change.</p>
                     <br/>
                 </Popup>
+                <Popup trigger={<Button icon='question circle' label='I want to learn more!'></Button>} flowing position="bottom center" on='click'>
+                    <p><strong>Shoving a ruler into a glacier, really?</strong><br/>We mentioned on the page about sea levels that you can’t shove a ruler into<br/> the ocean and simply measure the changes. So, you’d be surprised to know that’s exactly how<br/>  you measure the thickness of a glacier, or the glacier mass balance which is the scientific term.<br/> Well, one of the ways. Teams of scientists will travel to the glacier and stake it out, actually<br/> shoving stakes into the snow at exact depths providing point measurements of the glacier surface.</p>
+                    <p><strong>How does the stick method help?</strong><br/>You might think “Really? Shoving sticks in ice? How does that help?!” We know. Few people,<br/> many sticks, even more glaciers to measure. In the cold nonetheless. It’s a challenging,<br/> exhausting and hard logistical nightmare. But it does help in keeping track of a few key<br/>  points measuring ice depth, size, movement and water content.</p>
+                    <p><strong>Are there other types measurements?</strong><br/>The stick or stake method is paired with the study of satellite images of glaciers.<br/> This is done in part by GLIMS: Global Land Ice Measurements from Space - 100 investigators in<br/> over 24 countries building a database! That’s teamwork. The GLIMS team uses high-resolution<br/> satellite images from the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)<br/> instrument and the Landsat Enhanced Thematic Mapper Plus (ETM+). Whoa. That’s a mouthful.</p>
+                    <br/>
+                    </Popup>
                 <GlacierLine 
                 chartData={this.state.glacierChart} />
-                <GlacierAccordion />
+                {/*<GlacierAccordion />*/}
                 </div>
         );
     }

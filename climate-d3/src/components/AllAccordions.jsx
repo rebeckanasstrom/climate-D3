@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Accordion, Icon } from 'semantic-ui-react';
 
-class FossilAccordion extends Component {
+{/*class FossilAccordion extends Component {
       state = { activeIndex: -1 }
     
       handleClick = (e, titleProps) => {
@@ -278,4 +278,4 @@ class FossilAccordion extends Component {
         }
       };
 
-export { FossilAccordion, TempAccordion, GlacierAccordion, SeaAccordion};
+    export { FossilAccordion, TempAccordion, GlacierAccordion, SeaAccordion};*/}

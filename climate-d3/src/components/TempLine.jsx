@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Brush } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Brush, Area } from 'recharts';
 
 class TempLine extends Component {
   render() {
@@ -11,13 +11,13 @@ class TempLine extends Component {
             height={700}
             data={this.props.chartData}
             margin={{
-              top: 50, right: 30, left: 30, bottom: 5}}
+              top: 10, right: 30, left: 30, bottom: 5}}
           >
             <CartesianGrid strokeDasharray="3 3"/>
             <XAxis dataKey="Year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="red" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
+            <Line type="monotone" dataKey="Temperature (degrees celcius)" stroke="#9C245C" dot={false} activeDot={{ r: 8 }} legendType="circle"/>
             <Brush dataKey="Year"width={1050} height={25} travellerWidth={8} x={105} y={670}/>
           </LineChart>
       </div>

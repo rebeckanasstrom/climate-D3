@@ -7,12 +7,12 @@ class GlacierLine extends Component {
       <div class="ui basic segment">
       <div className="FossilDataBox">
       <AreaChart width={1200} height={700} data={this.props.chartData}
-            margin={{top: 50, right: 30, left: 30, bottom: 5}}>
+            margin={{top: 0, right: 30, left: 30, bottom: 5}}>
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="Year"/>
         <YAxis/>
         <Tooltip/>
-          <Area type="monotone" dataKey="Glacier Mass Balance (average value in meters)" stackId="1" stroke="blue" fill="lightblue" legendType="circle"/>
+          <Area type="monotone" dataKey="Glacier Mass Balance (average value in meters)" stackId="1" stroke="#9C245C" fill="lightblue" legendType="circle"/>
           <Brush dataKey="Year" width={1050} height={25} travellerWidth={8} x={105} y={670}/>
       </AreaChart>
       </div>
