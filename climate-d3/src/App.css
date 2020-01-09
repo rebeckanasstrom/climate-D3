@@ -1,36 +1,36 @@
 div.ui.secondary.menu {
-  background-color:rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
   margin: 0;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: "Century Gothic", sans-serif;
   height: 50px;
   border-bottom: 1px solid;
-  border-color: #E94D95;
+  border-color: #e94d95;
 }
 
 div.ui.secondary.menu a {
-  color: #E94D95;
+  color: #e94d95;
   text-transform: uppercase;
   font-weight: 700;
 }
 .ui.secondary.menu .active.item {
-  color: #38A0BC!important; 
+  color: #38a0bc !important;
   font-weight: 700;
 }
 
 .ui.secondary.menu a:hover {
-    color: #38A0BC !important;
+  color: #38a0bc !important;
 }
 
-.menuLinks {
+.MenuLinks {
   margin: auto;
 }
 
-.menuLogo {
-  margin:auto;
-  margin-left: 208px; 
+.MenuLogo {
+  margin: auto;
+  margin-left: 208px;
 }
 
-.menuLogo img {
+.MenuLogo img {
   width: 140px;
   margin-top: 5px;
 }
@@ -39,49 +39,50 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
- }
+  z-index: 6;
+}
 
 .App {
   text-align: center;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 
 p {
-  font-family: 'Alda ot cev', 'Times New Roman', serif;
+  font-family: "Alda ot cev", "Times New Roman", serif;
   font-size: 1.1rem;
 }
 
-.cardColor {
+.CardHeader {
   color: rgb(228, 94, 63);
   font-weight: bold;
-  font-size: 1.25em;
   margin: 0.8em;
-  }
+  font-size: 1.4em;
+}
 
-.cardDescription {      
-  font-family: 'Alda ot cev', serif !important; 
+.CardDescription {
+  font-family: "Alda ot cev", serif !important;
   margin-bottom: 2.5em !important;
   color: #111;
-  }
+  font-size: 1.2em;
+}
 
-.HomeCardsBox, .HomeArticleBox {
-    padding: 60px;
-    display: inline-flex;
-    justify-content: space-around;
-  }
-
+.HomeCardsBox,
+.HomeArticleBox {
+  padding: 60px;
+  display: inline-flex;
+  justify-content: space-around;
+}
 
 .HomeStepsBox {
-    display: inline-flex;
-    justify-content: space-around;
-  }
+  display: inline-flex;
+  justify-content: space-around;
+}
 
 .HomeBackground {
-   background-color: white;
- }
+  background-color: white;
+}
 
-.homeText {
+.HomeText {
   margin-left: 100px !important;
 }
 
@@ -95,86 +96,70 @@ p {
 }
 
 .FossilArticleBox h3 {
-  font-family: 'Century Gothic', sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 1.5em;
-  color: #E94D95;
+  color: #e94d95;
   padding-top: 35px;
-  
 }
 
 .FossilArticleBox p {
   font-size: 1.3em !important;
- }
+}
 
 .ColumnStyle {
   padding-left: 0px !important;
 }
 
- .FossilDataBox {
-   background-color: white;
-   padding: 0px 60px 0px 60px;
-   display: inline-flex;
-   justify-content: space-around;
- }
+.FossilDataBox {
+  background-color: white;
+  padding: 0px 60px 0px 60px;
+  display: inline-flex;
+  justify-content: space-around;
+}
 
- .SliderText {
-   font-family: 'Century Gothic', sans-serif;;
-   font-weight: bold;
-   font-size: 1em;
-   padding-bottom: 1.5em;
- }
+.SliderText {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-bottom: 1.5em;
+}
 
-.tipHeader {
-  color: #E94D95;
+.TipHeader {
+  color: #e94d95;
   padding-top: 30px;
   padding-bottom: 10px;
- }
+}
 
-.tipsPic {
-width: 170px;
-margin-left: 50px;
-margin-top: 30px;
-background-color: #fcd2c9;
-padding: 20px;
+.TipsPic {
+  width: 170px;
+  margin-left: 90px;
+  margin-top: 30px;
+  background-color: #fcd2c9;
+  padding: 20px;
 }
 
 .ui.segment {
   margin-bottom: 0rem !important;
 }
 
-.AccordionBox {
-  padding: 0px 60px 60px 60px;
-  justify-content: space-around;
-  margin-left: 10%;
- }
-
- .AccordionBox h3 {
-   font-size: 2em;
- }
-
- .AccordionBox p {
-  font-size: 1.2em;
-  font-family: 'Alda ot cev', 'Times New Roman', serif;
- }
-
-.footerStyle {
+.FooterStyle {
   background-color: #ffffff;
   border-top: 1px solid;
-  border-color: #E94D95;
-  color: #E94D95;
+  border-color: #e94d95;
+  color: #e94d95;
 }
 
 .ui.accordion .title {
   font-size: 1.3em !important;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 
 .ui.grid p {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .ui.grid p a:hover {
-  color: #E94D95 !important;
+  color: #e94d95 !important;
   text-decoration: underline !important;
 }
 
@@ -186,6 +171,8 @@ padding: 20px;
 .StepsHeader {
   color: rgb(228, 94, 63);
   font-weight: bold;
+  font-size: 1.4em;
+  font-family: "Century Gothic", sans-serif;
 }
 
 .TipsBox {
@@ -198,17 +185,20 @@ padding: 20px;
 }
 
 .TipsBox h3 {
-  font-family: 'Century Gothic', sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 1.5em;
-  color: #E94D95;
+  color: #e94d95;
 }
 
 .ui.basic.label {
-  color: #E94D95 !important;
-  font-size: 1.2em !important; 
+  color: #e94d95 !important;
+  font-size: 1.2em !important;
 }
 
-.ui.labeled.button>.button {
+.ui.labeled.button > .button {
   margin-left: 20px !important;
-  
+}
+
+.PopUpText p {
+  font-size: 1.2em;
 }
