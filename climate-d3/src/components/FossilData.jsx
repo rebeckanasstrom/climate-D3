@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import '../App.css';
 import FossilLine from './FossilLine';
 import { Button, Popup } from 'semantic-ui-react';
-{/*import {FossilAccordion} from './AllAccordions';*/}
 
+//FossilData.jsx fetches data from API on page load (componentDidMount)
+//Filters the data on years after 1900 using the map() function to bind each set of data (gas, liquid, etc.) to create a filtered array
+//Stores the entire data array in fuelEmissions and the filtered array in fuelEmissionsChart
+//This is so that we can still access all the data, but choose to use years 1900 and forward in the chart
 class FossilData extends Component {
     state={
         fuelEmissions: [],
@@ -37,6 +40,9 @@ class FossilData extends Component {
         });
       }
 
+    //Rendering two separate pop-ups + the actual chart
+    //Pop-up 1 is about how to read the diagram, pop-up 2 is the information about the data itself, teaching the user about methods used for data gathering
+    //FossilLine is fed the data from the filtered array (fuelEmissionsChart), using it to populate the chart and show only years 1900 and forward
     render(){
         return(
             <div>
@@ -58,12 +64,8 @@ class FossilData extends Component {
                     <p><strong>So what's up with the diagram? Fossil fuels?</strong><br/>If you look at the diagram you’ll see a number of different categories. How do they relate<br/> to tonnes and greenhouse gases? Fossil fuel is a term used to describe different kinds of burning<br/>  of non renewable energy sources and are often divided up and measured like here in the diagram..</p>
                     <br/>
                     </Popup>
-
-
-                
                 <FossilLine 
-                chartData={this.state.fuelEmissionsChart} />
-                {/*<FossilAccordion />*/}
+                chartData={this.state.fuelEmissionsChart} /> 
             </div>
         );
     }

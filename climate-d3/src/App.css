@@ -17,7 +17,7 @@ div.ui.secondary.menu a {
   font-weight: 700;
 }
 
-  .ui.secondary.menu a:hover {
+.ui.secondary.menu a:hover {
     color: #38A0BC !important;
 }
 
@@ -72,20 +72,20 @@ p {
   }
 
 
-  .HomeStepsBox {
+.HomeStepsBox {
     display: inline-flex;
     justify-content: space-around;
   }
 
- .HomeBackground {
+.HomeBackground {
    background-color: white;
  }
 
- .homeText {
+.homeText {
   margin-left: 100px !important;
 }
 
- .FossilArticleBox {
+.FossilArticleBox {
   padding: 30px;
   justify-content: space-around;
 }

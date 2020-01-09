@@ -9,6 +9,7 @@ import Glacier from './components/Glacier';
 import SeaLevel from './components/SeaLevel';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 
+//Using React Router Dom to redirect user to /paths, rendering the correct component for corresponding page
 function App() {
   return (
     <Router>
@@ -27,6 +28,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

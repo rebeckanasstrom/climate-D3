@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Brush, Area } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Brush } from 'recharts';
 
+//Code for generating a linechart using ReCharts
+//Data used is the filtered array from TempData passed as props and dataKey is used to determine which data points are to be shown in the diagram
+//Brush is the slider/comparison component, used to zoom and pan in the diagram, giving the user the ability to explore and interact with the data and compare between years
 class TempLine extends Component {
   render() {
     return (

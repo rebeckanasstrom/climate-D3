@@ -1,6 +1,4 @@
 import React, { Component } from 'react'; 
-import Factory from '../factory.jpg';
-import Drylandscape from '../drylandscape.jpg';
 import FossilFuel from '../fossilfuels1.jpg';
 import Temp from '../temp.jpg';
 import Glaciers from '../glaciers.jpg'

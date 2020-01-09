@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 
+//Creates a footer component with a copyright text and some styling :) 
 class Footer extends Component {
   render() {
     return (

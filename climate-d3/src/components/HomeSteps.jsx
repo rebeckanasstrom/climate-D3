@@ -4,6 +4,7 @@ import Data from "../data-step.png";
 import Inspire from "../inspire.png";
 import Save from "../save.png";
 
+//Steps segment using grids from semantic UI CSS, showing 4 pictures with text, non clickable
 class HomeSteps extends Component {
 
     render() {

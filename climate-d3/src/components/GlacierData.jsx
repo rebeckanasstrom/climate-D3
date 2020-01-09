@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import '../App.css';
 import GlacierLine from './GlacierLine';
 import { Button, Popup } from 'semantic-ui-react';
-{/*import {GlacierAccordion} from './AllAccordions';*/}
 
+//GlacieData.jsx fetches data from API on page load (componentDidMount)
+//Filters the data on years after 1900 using the map() function to bind each set of data (year, Mean) to create a filtered array
+//Stores the entire data array in glacierData and the filtered array in glacierChart
+//This is so that we can still access all the data, but choose to use years 1900 and forward in the chart
 class GlacierData extends Component {
     state={
         glacierData: [],
@@ -32,6 +35,9 @@ class GlacierData extends Component {
         });
       }
 
+    //Rendering two separate pop-ups + the actual chart
+    //Pop-up 1 is about how to read the diagram, pop-up 2 is the information about the data itself, teaching the user about methods used for data gathering
+    //GlacierLine is fed the data from the filtered array (glacierChart), using it to populate the chart and show only years 1900 and forward
     render(){
         return(
             <div>
@@ -53,7 +59,6 @@ class GlacierData extends Component {
                     </Popup>
                 <GlacierLine 
                 chartData={this.state.glacierChart} />
-                {/*<GlacierAccordion />*/}
                 </div>
         );
     }

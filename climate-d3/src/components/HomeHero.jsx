@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import LazyHero from 'react-lazy-hero';
 import Hero from '../mountain-hero.jpg';
 
-
+//Using LazyHero, a hero picture is rendered with text on top
 class HomeHero extends Component {
     render() {
         return(

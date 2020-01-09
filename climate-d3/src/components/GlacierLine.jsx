@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Brush, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
+//Code for generating a line chart using ReCharts
+//Data used is the filtered array from GlacierData passed as props and dataKey is used to determine which data points are to be shown in the diagram
+//Brush is the slider/comparison component, used to zoom and pan in the diagram, giving the user the ability to explore and interact with the data and compare between years
 class GlacierLine extends Component {
   render() {
     return (

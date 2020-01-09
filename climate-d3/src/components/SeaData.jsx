@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import '../App.css';
 import SeaLine from './SeaLine';
 import { Button, Popup } from 'semantic-ui-react';
-{/*import {SeaAccordion} from './AllAccordions';*/}
 
+//SeaData.jsx fetches data from API on page load (componentDidMount)
+//Filters the data on years after 1900 using the map() function to bind each set of data (year, GMSL) to create a filtered array
+//Stores the entire data array in seaData and the filtered array in seaChart
+//This is so that we can still access all the data, but choose to use years 1900 and forward in the chart
 class SeaData extends Component {
     state={
         seaData: [],
@@ -23,7 +26,7 @@ class SeaData extends Component {
             })
         );
 
-        //filterSea = filterSea.filter(x => x.Year > 1900);
+        filterSea = filterSea.filter(x => x.Year > 1900);
 
         console.log(filterSea);
         this.setState({
@@ -32,6 +35,9 @@ class SeaData extends Component {
         });
       }
 
+    //Rendering two separate pop-ups + the actual chart
+    //Pop-up 1 is about how to read the diagram, pop-up 2 is the information about the data itself, teaching the user about methods used for data gathering
+    //SeaLine is fed the data from the filtered array (seaChart), using it to populate the chart and show only years 1900 and forward
     render(){
         return(
             <div>
@@ -50,7 +56,6 @@ class SeaData extends Component {
                     </Popup>  
                 <SeaLine 
                 chartData={this.state.seaChart} />
-                {/*<SeaAccordion />*/}
             </div>
         );
     }

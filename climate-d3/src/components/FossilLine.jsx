@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Brush, ComposedChart, Line, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
+
+//Code for generating a composed chart (line + area chart) using ReCharts
+//Data used is the filtered array from FossilData passed as props and dataKey is used to determine which data points are to be shown in the diagram
+//Brush is the slider/comparison component, used to zoom and pan in the diagram, giving the user the ability to explore and interact with the data and compare between years
 class FossilLine extends Component {
   render() {
     return (

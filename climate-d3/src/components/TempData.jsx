@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import '../App.css';
 import TempLine from './TempLine';
 import { Button, Popup } from 'semantic-ui-react';
-{/*import {TempAccordion} from './AllAccordions';*/}
 
+//TempData.jsx fetches data from API on page load (componentDidMount)
+//Filters the data on years after 1900 using the map() function to bind each set of data (year, temperature) to create a filtered array
+//Stores the entire data array in tempData and the filtered array in tempChart
+//This is so that we can still access all the data, but choose to use years 1900 and forward in the chart
 class TempData extends Component {
     state={
         tempData: [],
@@ -33,6 +36,9 @@ class TempData extends Component {
         });
       }
 
+    //Rendering two separate pop-ups + the actual chart
+    //Pop-up 1 is about how to read the diagram, pop-up 2 is the information about the data itself, teaching the user about methods used for data gathering
+    //TempLine is fed the data from the filtered array (tempChart), using it to populate the chart and show only years 1900 and forward
     render(){
         return(
             <div>
@@ -53,7 +59,6 @@ class TempData extends Component {
                 
                 <TempLine 
                 chartData={this.state.tempChart} />
-                {/*<TempAccordion />*/}
             </div>
         );
     }

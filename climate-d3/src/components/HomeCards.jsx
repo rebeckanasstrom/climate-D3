@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Factory from '../factory.jpg';
-import Drylandscape from '../drylandscape.jpg';
-import Flood from '../flood.jpg';
-import Meltingice from '../meltingice.jpg';
 import Fossilmini from '../fossil-mini.jpg';
 import TempMini from '../temp-mini.jpg';
 import GlaciersMini from '../glacier-mini.jpg'
 import SeaMini from '../sea-mini.jpg';
 
+//Start of HomeCards: using Semantic UI CSS, 4 clickable cards are rendered as links to the pages of the application
+//NavLink is used to work with React Router Dom
 class HomeCards extends Component {
     render(){
         return(
             <div class="ui basic segment" style={{backgroundColor: "rgba(250, 211, 202, 0.43)"}}>
               <div className="HomeCardsBox">
-<div class="ui link four cards">
-<NavLink to="/fossilfuel">
-<div class="ui card" style={{margin: "20px", width: "250px"}}>
+                <div class="ui link four cards">
+                <NavLink to="/fossilfuel">
+                <div class="ui card" style={{margin: "20px", width: "250px"}}>
     <div class="image">
       <img src={Fossilmini} alt=""/>
     </div>
