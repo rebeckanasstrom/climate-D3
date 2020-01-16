@@ -130,7 +130,7 @@ class FossilTips extends Component {
                 <strong>
                   Do you want to become your own tailor? Adrianna over at Hey
                   June will help you to get started. She has tutorials and sew
-                  alongs suited for everybody:
+                  alongs suited for everybody:{" "}
                 </strong>
                 <a
                   style={{ color: "rgb(84, 178, 204)" }}
@@ -195,7 +195,7 @@ class TempTips extends Component {
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>
-                  Check out the climate change movement by Greta Thunberg:
+                  Check out the climate change movement by Greta Thunberg:{" "}
                 </strong>
                 <a
                   style={{ color: "rgb(84, 178, 204)" }}
