@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f64c74a4a156f7a51f7b5f562cef9362",
+    "revision": "a8abe34404f14be1043a1bae8704ae31",
     "url": "/climate-D3/index.html"
   },
   {
-    "revision": "a402234d709967e166c1",
+    "revision": "9c1841421f70ca6ec199",
     "url": "/climate-D3/static/css/2.a8952bea.chunk.css"
   },
   {
-    "revision": "fa5f539ac16e6b099928",
-    "url": "/climate-D3/static/css/main.04a2d1ae.chunk.css"
+    "revision": "f655b43611f3a2f7b606",
+    "url": "/climate-D3/static/css/main.35e42128.chunk.css"
   },
   {
-    "revision": "a402234d709967e166c1",
-    "url": "/climate-D3/static/js/2.8ea76aa7.chunk.js"
+    "revision": "9c1841421f70ca6ec199",
+    "url": "/climate-D3/static/js/2.0a0921c4.chunk.js"
   },
   {
-    "revision": "fa5f539ac16e6b099928",
-    "url": "/climate-D3/static/js/main.b1c281b9.chunk.js"
+    "revision": "f655b43611f3a2f7b606",
+    "url": "/climate-D3/static/js/main.002b7d20.chunk.js"
   },
   {
     "revision": "9451a4891f4683f70d8c",
@@ -68,32 +68,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-D3/static/media/dress.21e000f4.png"
   },
   {
-    "revision": "a9b0f5d6a6e07a0359f0102759cafd93",
-    "url": "/climate-D3/static/media/drylandscape.a9b0f5d6.jpg"
-  },
-  {
-    "revision": "0925d6f1a6bf659085c4d9c2dc698c40",
-    "url": "/climate-D3/static/media/factory.0925d6f1.jpg"
-  },
-  {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/climate-D3/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "3d9cb43dee891121531a76ce4e55b2b8",
-    "url": "/climate-D3/static/media/flood.3d9cb43d.jpg"
+    "revision": "da911e76b9cd756f343d141b62b87c2d",
+    "url": "/climate-D3/static/media/fossil-mini.da911e76.jpg"
   },
   {
-    "revision": "f25e9d0d81ee8d496b69ad245b892ac4",
-    "url": "/climate-D3/static/media/fossilfuel.f25e9d0d.jpg"
+    "revision": "0771902eed6458b0bdd105885936769e",
+    "url": "/climate-D3/static/media/fossilfuels.0771902e.png"
   },
   {
     "revision": "f6192aa5fcdd5dda6714385cb19e6f8d",
     "url": "/climate-D3/static/media/friends.f6192aa5.png"
   },
   {
-    "revision": "8601eaefafda0680ccc6565cab674367",
-    "url": "/climate-D3/static/media/glaciers.8601eaef.jpg"
+    "revision": "379ae75478abc34c9f17b803508dfd3f",
+    "url": "/climate-D3/static/media/glacier-mini.379ae754.jpg"
+  },
+  {
+    "revision": "c1b59cf6669046f96f18db3130b3e9aa",
+    "url": "/climate-D3/static/media/glaciers.c1b59cf6.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -120,12 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-D3/static/media/inspire.ff2cbebc.png"
   },
   {
-    "revision": "c695321a67dcf16aa8a675162eeb548b",
-    "url": "/climate-D3/static/media/meltingice.c695321a.jpg"
-  },
-  {
-    "revision": "ce3d657c61e1d08653c7f0715497709c",
-    "url": "/climate-D3/static/media/mountain-hero.ce3d657c.jpg"
+    "revision": "566b48a8d3d2a2e40013f247a5c00c83",
+    "url": "/climate-D3/static/media/mountain-hero.566b48a8.jpg"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -164,8 +156,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-D3/static/media/save.f31ee868.png"
   },
   {
-    "revision": "bf6f3beed7552a950470e9730638c830",
-    "url": "/climate-D3/static/media/sealevels.bf6f3bee.jpg"
+    "revision": "1ef660f465c79fd4f56a099ed2533978",
+    "url": "/climate-D3/static/media/sea-mini.1ef660f4.jpg"
+  },
+  {
+    "revision": "17f324700d37b771e9f50f4a57190626",
+    "url": "/climate-D3/static/media/sealevels.17f32470.png"
   },
   {
     "revision": "d043aacb646ce6f3075c2933d24a9a62",
@@ -180,8 +176,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/climate-D3/static/media/subway.cdadc617.png"
   },
   {
-    "revision": "16f8b4400d1e616d102fb2a77950cd10",
-    "url": "/climate-D3/static/media/temp.16f8b440.jpg"
+    "revision": "d0e27e179eba08430947c252fd88299c",
+    "url": "/climate-D3/static/media/temp-mini.d0e27e17.jpg"
+  },
+  {
+    "revision": "ffba2e225d7f01399789542d7d1154e8",
+    "url": "/climate-D3/static/media/temp.ffba2e22.png"
   },
   {
     "revision": "15f6d0b07d2ddf94ec54b3c152bcf816",
