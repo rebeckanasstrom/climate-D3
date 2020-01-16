@@ -25,7 +25,6 @@ class FossilTips extends Component {
         >
           <div>
             <h1 className="TipHeader">
-              {" "}
               So, what can you do to save the planet?
             </h1>
           </div>
@@ -42,16 +41,16 @@ class FossilTips extends Component {
                 Start with getting a pretty water bottle and make it a habit of
                 filling it up before you leave in the morning. Invest in a set
                 of those nifty (and cute!) reusable cutlery sets for lunches on
-                the go and bring a reusable straw. While you’re at it, get some
+                the go and bring a reusable straw. While you're at it, get some
                 of those nice glass containers for storing your homemade lunch
                 in. Good for reducing food waste and saving money. Speaking
                 about food, keep the plastic out of your life by going with
                 reusable bags for fruit and veggies and bring a tote bag for
-                carrying your groceries!{" "}
+                carrying your groceries!
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>
-                  Last summer Lush came out with an all plastic free shower
+                  Last summer, Lush came out with an all plastic free shower
                   collection, how amazing is that? Check out the glorious
                   collection here:
                 </strong>{" "}
@@ -78,19 +77,20 @@ class FossilTips extends Component {
               <p>
                 Say no thanks to cars and start embracing the public transport
                 system. Getting from point A to B is often more time efficient
-                and saves you money in the long run - especially if you’re
-                living in the city. It’s also a ton more energy efficient and
-                kind to the planet, not to mention the fact you don’t have to
-                circle the city center fifty times before finding parking. Still
-                need a car? Try to share rides with coworkers or family and plan
-                trips around going back and forth as few times as possible. And
-                hey, after a crazy night out - is that cab ride home really
-                worth it? If it is, try to at least share it with a friend or
-                friends. Travelling together is more fun anyways!
+                and saves you money in the long run - especially if you're
+                living in the city. It's also a ton more energy efficient and
+                less harmful to the planet, not to mention the fact you don't
+                have to circle the city center fifty times before finding a
+                parking spot. Still need a car? Try to share rides with
+                co-workers or family and plan your trips to avoid having to go
+                back and forth as few times as possible. And hey, after a crazy
+                night out - is that cab ride home really worth it? If it is, try
+                to at least share it with a friend or a few. Travelling together
+                is more fun anyways!
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>
-                  Want to know more on how exactly you’re helping our planet by
+                  Want to know more on how exactly you're helping our planet by
                   going by bus or train? Read this article from the U.S.
                   Department of transportation:
                 </strong>{" "}
@@ -114,23 +114,24 @@ class FossilTips extends Component {
             <div class="twelve wide column">
               <h3>It's probably not that broken, right?</h3>
               <p>
-                We’ve all been there. Something stops working and your first
-                reaction is ”Oh no, I need to buy a new one”. Before you go all
-                trigger happy on that ”Add to cart”-button, consider getting it
+                We've all been there. Something stops working and your first
+                reaction is "Oh no, I need to buy a new one". Before you go all
+                trigger happy on that "Add to cart"-button, consider getting it
                 repaired or at least have someone look at what could be done. If
                 we can start repairing what we have instead of consuming more,
-                that’s a great way of being more sustainable. Computer or phone
+                that's a great way of being more sustainable. Computer or phone
                 broken? Get it to a technician. Beloved jacket lost its zipper?
                 Consult a tailor. Nothing is truly broken, until… well… it is.
-                But then at least you tried. And if it’s beyond repair, remember
-                to recycle all the parts so they can become something new!
+                But then at least you've tried. And if it's beyond repair,
+                remember to recycle all the parts so they can become something
+                new!
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>
                   Do you want to become your own tailor? Adrianna over at Hey
                   June will help you to get started. She has tutorials and sew
                   alongs suited for everybody:
-                </strong>{" "}
+                </strong>
                 <a
                   style={{ color: "rgb(84, 178, 204)" }}
                   href="https://www.heyjunehandmade.com/blog/"
@@ -169,7 +170,6 @@ class TempTips extends Component {
         >
           <div>
             <h1 className="TipHeader">
-              {" "}
               So, what can you do to save the planet?
             </h1>
           </div>
@@ -196,7 +196,7 @@ class TempTips extends Component {
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>
                   Check out the climate change movement by Greta Thunberg:
-                </strong>{" "}
+                </strong>
                 <a
                   style={{ color: "rgb(84, 178, 204)" }}
                   href="https://www.fridaysforfuture.org/"
@@ -221,15 +221,16 @@ class TempTips extends Component {
                 Use your fashion sense to find new clothes at a thrift shop!
               </h3>
               <p>
-                I know that it's tempting to buy a new dress from that store,
-                but have you ever considered to get your new dress from a second
-                hand store instead? A lot of second hand stores have lovely and
-                basically unworn pieces just waiting for a new home! ! Online
-                stores like Asos.com and Ebay.com sell thrifted clothes, so if
-                you can’t buy your items in thrift shop, you can go online and
-                buy them instead. You could also host a clothing swap party,
-                where you trade your unwanted clothes in exchange for another
-                person's unwanted items - it's a win, win!
+                I know that it's tempting to buy a new dress from that special
+                store you love, but have you ever considered to get your new
+                dress from a second hand store instead? A lot of second hand
+                stores have lovely and basically unworn pieces just waiting for
+                a new home! Online stores like Asos.com and Ebay.com sell
+                thrifted clothes, so if you can't buy your items in a thrift
+                shop, you can go online and buy them instead. You could also
+                host a clothing swap party, where you trade your unwanted
+                clothes in exchange for another person's unwanted items - it's a
+                win, win!
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>
                 <strong>Read our guide on how to thrift shop:</strong>{" "}
@@ -259,10 +260,10 @@ class TempTips extends Component {
                 search on the internet? A company named Ecosia strives to plant
                 as many trees as possible with the help of their users. The
                 company uses the income from their ad revenue to plant trees
-                where it's mostly needed. We know that you’re busy, and that it
+                where it's mostly needed. We know that you're busy, and that it
                 can be hard to make big, dramatic changes in your life, this is
                 the perfect solution! By doing roughly 45 searches, (which
-                doesn’t take any time at all) you are actually the cause for a
+                doesn't take any time at all) you are actually the cause for a
                 new tree being planted! How amazing is that!
               </p>
               <p style={{ marginBottom: "2em", fontFamily: "Century Gothic" }}>

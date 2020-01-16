@@ -31,7 +31,7 @@ class FossilData extends Component {
       })
     );
 
-    fuelData = fuelData.filter(x => x.Year > 1900);
+    fuelData = fuelData.filter(x => x.Year > 1899);
 
     console.log(fuelData);
     this.setState({
@@ -72,7 +72,7 @@ class FossilData extends Component {
             </p>
             <p>
               <strong>Solid Fuel:</strong> refers to coal based fuels, such as
-              coal, charcoal, soot and wood.{" "}
+              coal, charcoal, soot and wood.
             </p>
             <p>
               <strong>Cement:</strong> in order to make cement, chemical
@@ -89,7 +89,7 @@ class FossilData extends Component {
               Emissions are measured in "million metric tonnes of carbon dioxide
               equivalents" (MMTCDE). Every category has its own color and is
               represented by a <br />
-              red line at the top.
+              red line at the top
             </p>
             <br />
           </div>
@@ -109,9 +109,9 @@ class FossilData extends Component {
             <p>
               <strong>What is million metric tonnes?</strong>
               <br />
-              You’ll often encounter the term “million metric tonnes of carbon”
+              You'll often encounter the term "million metric tonnes of carbon"
               when reading about fossil fuel emissions.
-              <br /> Crystal clear? Yeah, no, we didn’t get it either. Simply
+              <br /> Crystal clear? Yeah, no, we didn't get it either. Simply
               put, fossil fuel emissions are measured by comparing
               <br /> the emissions from various greenhouse gases based on their
               global warming potential. The global warming
@@ -125,7 +125,7 @@ class FossilData extends Component {
             <p>
               <strong>What's greenhouse gases?</strong>
               <br />
-              So what’s greenhouse gas then, and why do you need to know about
+              So what's greenhouse gas then, and why do you need to know about
               it? Greenhouse gases
               <br /> are a collection of gases that contribute to global
               warming. By collecting data about them and
@@ -140,7 +140,7 @@ class FossilData extends Component {
               <br /> to tonnes and greenhouse gases? Fossil fuel is a term used
               to describe different kinds of burning
               <br /> of non renewable energy sources and are often divided up
-              and measured like here in the diagram..
+              and measured like here in the diagram...
             </p>
             <br />
           </div>

@@ -26,7 +26,7 @@ class SeaData extends Component {
       })
     );
 
-    filterSea = filterSea.filter(x => x.Year > 1900);
+    filterSea = filterSea.filter(x => x.Year > 1899);
 
     console.log(filterSea);
     this.setState({
@@ -35,9 +35,10 @@ class SeaData extends Component {
     });
   }
 
-  //Rendering two separate pop-ups + the actual chart
-  //Pop-up 1 is about how to read the diagram, pop-up 2 is the information about the data itself, teaching the user about methods used for data gathering
-  //SeaLine is fed the data from the filtered array (seaChart), using it to populate the chart and show only years 1900 and forward
+  //SeaData.jsx fetches data from API on page load (componentDidMount)
+  //Filters the data on years after 1900 using the map() function to bind each set of data (year, GMSL) to create a filtered array
+  //Stores the entire data array in seaData and the filtered array in seaChart
+  //This is so that we can still access all the data, but choose to use years 1900 and forward in the chart
   render() {
     return (
       <div>
@@ -62,13 +63,13 @@ class SeaData extends Component {
               When talking about sea level measurements, we talk about data
               called “Global Mean Sea Level” or GMSL for short. What the numbers
               represent <br />
-              is the changes in sea levels for the world’s oceans since 1880,
+              is the changes in sea levels for the world's oceans since 1880,
               based on both long time tide measurements as well as recent
-              satellite data.{" "}
+              satellite data.
             </p>
             <p>
               The diagram shows the changes in absolute sea level in
-              millimeters, the “height” of the ocean surface if you will, not
+              millimeters, the "height" of the ocean surface if you will, not
               taking into account <br />
               whether nearby land is rising or falling.
             </p>
@@ -92,7 +93,7 @@ class SeaData extends Component {
               <br />
               Okay, so shoving a ruler into the ocean is by no means a way to
               measure the rising sea levels.
-              <br /> What is? If your guess is satellites, you’re right. If your
+              <br /> What is? If your guess is satellites, you're right. If your
               second guess was through NASA,
               <br /> bonus point. Space born satellites measures changes in
               water mass, including groundwater,
@@ -107,8 +108,8 @@ class SeaData extends Component {
               something called
               <br /> Argo sensors, which are basically free floating sensors
               (roughly 4000 of them!) measuring
-              <br /> sea temperature and salt levels. But! Yes, there’s always a
-              but. It doesn’t stop there.
+              <br /> sea temperature and salt levels. But! Yes, there's always a
+              but. It doesn't stop there.
               <br /> Changes are also measured via aircraft.
             </p>
             <p>

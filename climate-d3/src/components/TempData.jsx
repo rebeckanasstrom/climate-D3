@@ -26,7 +26,7 @@ class TempData extends Component {
       })
     );
 
-    filterTemp = filterTemp.filter(x => x.Year > 1900);
+    filterTemp = filterTemp.filter(x => x.Year > 1899);
 
     console.log(filterTemp);
     this.setState({
@@ -62,12 +62,12 @@ class TempData extends Component {
           <div className="PopUpText">
             <p>
               Temperature is measured by collecting data from rougly 6 300
-              meterological stations around the world.{" "}
+              meterological stations around the world.
             </p>
             <p>
               The collecting is done by scientists at NASA, who then compiles
               all the information to show a global average temperature change
-              per year.{" "}
+              per year.
             </p>
             <br />
           </div>

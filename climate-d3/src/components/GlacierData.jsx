@@ -27,7 +27,7 @@ class GlacierData extends Component {
       })
     );
 
-    filterGlacier = filterGlacier.filter(x => x.Year > 1900);
+    filterGlacier = filterGlacier.filter(x => x.Year > 1899);
 
     console.log(filterGlacier);
     this.setState({
@@ -61,18 +61,18 @@ class GlacierData extends Component {
           <div className="PopUpText">
             <p>
               So, glacier mass balance is the quantitative expression of a
-              glacier’s changes in volume over time. The cumulative <br />
+              glacier's changes in volume over time. The cumulative <br />
               mass balance (which shows in the diagram below) is the mass of the
               glacier at a stated time, relative to its mass at some <br />
               earlier time. Some glaciers have mass balance measurements going
               back decades, which means that scientists can analyse <br />
-              how mass balance is changing over time.{" "}
+              how mass balance is changing over time.
             </p>
             <p>
-              Glacier thickness, or their “Mass balance” can be thought of as
-              the ‘health of a glacier’; glaciers losing more <br />
+              Glacier thickness, or their "Mass balance" can be thought of as
+              the "health of a glacier"; glaciers losing more <br />
               mass than they receive will be in negative mass balance and so
-              will recede. Glaciers are sensitive ‘barometers’ <br />
+              will recede. Glaciers are sensitive "barometers" <br />
               to our changing world, making them a good tool in recording
               climate change.
             </p>
@@ -108,10 +108,24 @@ class GlacierData extends Component {
             <p>
               <strong>How does the stick method help?</strong>
               <br />
-              You might think “Really? Shoving sticks in ice? How does that
-              help?!” We know. Few people,
+              We mentioned on the page about sea levels that you can't shove a
+              ruler into
+              <br /> the ocean and simply measure the changes. So, you'd be
+              surprised to know that's exactly how
+              <br /> you measure the thickness of a glacier, or the glacier mass
+              balance which is the scientific term.
+              <br /> Well, one of the ways. Teams of scientists will travel to
+              the glacier and stake it out, actually
+              <br /> shoving stakes into the snow at exact depths providing
+              point measurements of the glacier surface.
+            </p>
+            <p>
+              <strong>How does the stick method help?</strong>
+              <br />
+              You might think "Really? Shoving sticks in ice? How does that
+              help?!"" We know. Few people,
               <br /> many sticks, even more glaciers to measure. In the cold
-              nonetheless. It’s a challenging,
+              nonetheless. It's a challenging,
               <br /> exhausting and hard logistical nightmare. But it does help
               in keeping track of a few key
               <br /> points measuring ice depth, size, movement and water
@@ -124,12 +138,12 @@ class GlacierData extends Component {
               images of glaciers.
               <br /> This is done in part by GLIMS: Global Land Ice Measurements
               from Space - 100 investigators in
-              <br /> over 24 countries building a database! That’s teamwork. The
+              <br /> over 24 countries building a database! That's teamwork. The
               GLIMS team uses high-resolution
               <br /> satellite images from the Advanced Spaceborne Thermal
               Emission and Reflection Radiometer (ASTER)
               <br /> instrument and the Landsat Enhanced Thematic Mapper Plus
-              (ETM+). Whoa. That’s a mouthful.
+              (ETM+). Whoa. That's a mouthful.
             </p>
             <br />
           </div>
